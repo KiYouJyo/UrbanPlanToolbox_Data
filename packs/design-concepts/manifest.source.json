@@ -1,0 +1,21 @@
+{
+  "formatVersion": 1,
+  "id": "design-concepts",
+  "version": "2026.08.1",
+  "schemaVersion": 1,
+  "displayName": {
+    "zh-CN": "设计理念词典",
+    "ja-JP": "デザインコンセプト辞典",
+    "en-US": "Design Concepts Dictionary"
+  },
+  "description": {
+    "zh-CN": "由 UrbanPlanToolbox 维护的规划与建筑设计理念解释、标签、适用场景与案例提示。",
+    "ja-JP": "UrbanPlanToolbox が保守する都市計画・建築デザイン概念の解説、タグ、適用場面、事例ヒント。",
+    "en-US": "UrbanPlanToolbox-curated planning and architectural design concepts with definitions, tags, use cases and case notes."
+  },
+  "minAppVersion": "1.13.0",
+  "dataPath": "data/concepts.json",
+  "schemaPath": "schemas/design-concepts.schema.json",
+  "publisher": "UrbanPlanToolbox",
+  "channel": "stable"
+}

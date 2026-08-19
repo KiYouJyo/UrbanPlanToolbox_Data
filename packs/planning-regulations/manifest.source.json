@@ -13,7 +13,7 @@
     "ja-JP": "中国・日本・米国・欧州の建築・都市計画関連法規、基準、公式情報源の構造化索引。",
     "en-US": "Structured index of architecture and planning laws, standards and authoritative sources across China, Japan, the US and Europe."
   },
-  "minAppVersion": "1.13.0",
+  "minAppVersion": "1.9.2",
   "dataPath": "data/regulations.json",
   "schemaPath": "schemas/planning-regulations.schema.json",
   "publisher": "UrbanPlanToolbox",

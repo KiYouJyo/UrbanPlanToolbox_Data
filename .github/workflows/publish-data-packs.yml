@@ -1,0 +1,52 @@
+name: Publish data packs
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag, for example data-2026.08.1
+        required: true
+        default: data-2026.08.1
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate
+        run: python scripts/validate.py
+      - name: Build packages
+        run: python scripts/build_packs.py
+      - name: Generate catalog
+        run: python scripts/generate_catalog.py --repository KiYouJyo/UrbanPlanToolbox_Data --tag "${{ inputs.tag }}" --write-source
+      - name: Publish immutable release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "${{ inputs.tag }}" >/dev/null 2>&1; then
+            echo "Release ${{ inputs.tag }} already exists; refusing to overwrite immutable assets."
+            exit 1
+          fi
+          gh release create "${{ inputs.tag }}" \
+            dist/*.uptdata dist/SHA256SUMS.txt dist/catalog-v1.json \
+            --title "UrbanPlanToolbox Data ${{ inputs.tag }}" \
+            --notes "Official UrbanPlanToolbox data-pack release. Packages are validated, versioned independently from the app, and intended for local offline use after download."
+      - name: Update fixed catalog endpoint on main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog/catalog-v1.json
+          if git diff --cached --quiet; then
+            echo "Catalog unchanged."
+          else
+            git commit -m "data: publish catalog for ${{ inputs.tag }}"
+            git push origin HEAD:main
+          fi

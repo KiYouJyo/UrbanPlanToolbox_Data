@@ -1,0 +1,21 @@
+{
+  "formatVersion": 1,
+  "id": "planning-regulations",
+  "version": "2026.08.1",
+  "schemaVersion": 1,
+  "displayName": {
+    "zh-CN": "建筑与规划法规索引",
+    "ja-JP": "建築・都市計画法規索引",
+    "en-US": "Architecture & Planning Regulations Index"
+  },
+  "description": {
+    "zh-CN": "中日美欧建筑与规划相关法规、标准和官方来源的结构化索引。",
+    "ja-JP": "中国・日本・米国・欧州の建築・都市計画関連法規、基準、公式情報源の構造化索引。",
+    "en-US": "Structured index of architecture and planning laws, standards and authoritative sources across China, Japan, the US and Europe."
+  },
+  "minAppVersion": "1.13.0",
+  "dataPath": "data/regulations.json",
+  "schemaPath": "schemas/planning-regulations.schema.json",
+  "publisher": "UrbanPlanToolbox",
+  "channel": "stable"
+}

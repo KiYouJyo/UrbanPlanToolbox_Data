@@ -1,0 +1,41 @@
+name: Bootstrap legacy datasets
+
+on:
+  push:
+    branches: [setup/initial-data-packs]
+    paths:
+      - .bootstrap-trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Import legacy regulations and terminology
+        run: python scripts/bootstrap_from_legacy.py
+      - name: Validate migrated data
+        run: python scripts/validate.py
+      - name: Build packages
+        run: |
+          python scripts/build_packs.py
+          python scripts/generate_catalog.py --repository KiYouJyo/UrbanPlanToolbox_Data --tag data-2026.08.1
+      - name: Commit generated source data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add packs/planning-regulations/data/regulations.json packs/planning-terminology/data/terminology.json
+          if git diff --cached --quiet; then
+            echo "Legacy datasets already up to date."
+          else
+            git commit -m "data: migrate initial regulations and terminology"
+            git push
+          fi

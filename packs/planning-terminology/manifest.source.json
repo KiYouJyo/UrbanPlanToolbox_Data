@@ -1,0 +1,21 @@
+{
+  "formatVersion": 1,
+  "id": "planning-terminology",
+  "version": "2026.08.1",
+  "schemaVersion": 1,
+  "displayName": {
+    "zh-CN": "中日英规划术语库",
+    "ja-JP": "中日英都市計画用語集",
+    "en-US": "Chinese-Japanese-English Planning Terminology"
+  },
+  "description": {
+    "zh-CN": "面向中国、日本和英语规划语境的三语术语、定义、对应关系与来源。",
+    "ja-JP": "中国・日本・英語圏の都市計画文脈を横断する三言語の用語、定義、対応関係、出典。",
+    "en-US": "Trilingual planning terminology, definitions, equivalence notes and sources across Chinese, Japanese and English contexts."
+  },
+  "minAppVersion": "1.13.0",
+  "dataPath": "data/terminology.json",
+  "schemaPath": "schemas/planning-terminology.schema.json",
+  "publisher": "UrbanPlanToolbox",
+  "channel": "stable"
+}

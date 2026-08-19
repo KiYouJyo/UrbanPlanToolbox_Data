@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Planning Terminology Data",
+  "type": "object",
+  "required": ["schemaVersion", "dataVersion", "lastReviewed", "languages", "counts", "terms", "migration"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "dataVersion": { "type": "string", "pattern": "^\\d{4}\\.\\d{2}\\.\\d+$" },
+    "lastReviewed": { "type": "string" },
+    "languages": { "type": "array" },
+    "counts": { "type": "object" },
+    "equivalenceEnum": { "type": "array" },
+    "terms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "stableId", "category", "zhCN", "jaJP", "enUS", "jurisdiction", "equivalence", "definitionZh", "definitionJa", "definitionEn"],
+        "properties": {
+          "id": { "type": "integer", "minimum": 1 },
+          "stableId": { "type": "string", "pattern": "^term-\\d{4,}$" },
+          "category": { "type": "string" },
+          "zhCN": { "type": "string" },
+          "jaJP": { "type": "string" },
+          "jaReading": { "type": "string" },
+          "enUS": { "type": "string" },
+          "jurisdiction": { "type": "string" },
+          "conceptType": { "type": "string" },
+          "equivalence": { "type": "string" },
+          "definitionZh": { "type": "string" },
+          "definitionJa": { "type": "string" },
+          "definitionEn": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "migration": { "type": "object" },
+    "aliases": { "type": "array" },
+    "edges": { "type": "array" },
+    "highRisk": { "type": "array" },
+    "sources": { "type": "array" }
+  },
+  "additionalProperties": true
+}

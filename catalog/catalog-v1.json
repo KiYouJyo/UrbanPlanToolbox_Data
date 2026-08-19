@@ -1,0 +1,48 @@
+{
+  "catalogVersion": 1,
+  "releaseTag": "data-2026.08.1",
+  "packs": [
+    {
+      "id": "design-concepts",
+      "version": "2026.08.1",
+      "schemaVersion": 1,
+      "minAppVersion": "1.9.2",
+      "displayName": {
+        "zh-CN": "设计理念词典",
+        "ja-JP": "デザインコンセプト辞典",
+        "en-US": "Design Concepts Dictionary"
+      },
+      "size": 8485,
+      "sha256": "f7b257780ae646a1634f71b8a269c546c78b173ca069671fea0bc16e9185a678",
+      "downloadUrl": "https://github.com/KiYouJyo/UrbanPlanToolbox_Data/releases/download/data-2026.08.1/design-concepts-2026.08.1.uptdata"
+    },
+    {
+      "id": "planning-regulations",
+      "version": "2026.08.1",
+      "schemaVersion": 1,
+      "minAppVersion": "1.9.2",
+      "displayName": {
+        "zh-CN": "建筑与规划法规索引",
+        "ja-JP": "建築・都市計画法規索引",
+        "en-US": "Architecture & Planning Regulations Index"
+      },
+      "size": 19496,
+      "sha256": "4e08355d240c06ae24c299a8fd10361cb8e5752957f6e1536b715c0e4a7020f4",
+      "downloadUrl": "https://github.com/KiYouJyo/UrbanPlanToolbox_Data/releases/download/data-2026.08.1/planning-regulations-2026.08.1.uptdata"
+    },
+    {
+      "id": "planning-terminology",
+      "version": "2026.08.1",
+      "schemaVersion": 1,
+      "minAppVersion": "1.9.2",
+      "displayName": {
+        "zh-CN": "中日英规划术语库",
+        "ja-JP": "中日英都市計画用語集",
+        "en-US": "Chinese-Japanese-English Planning Terminology"
+      },
+      "size": 51279,
+      "sha256": "db192b722af918c85355842de1ce55842933fda228b1a24a5b02fd276cb37ca4",
+      "downloadUrl": "https://github.com/KiYouJyo/UrbanPlanToolbox_Data/releases/download/data-2026.08.1/planning-terminology-2026.08.1.uptdata"
+    }
+  ]
+}

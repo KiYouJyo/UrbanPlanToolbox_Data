@@ -125,6 +125,33 @@ def meta_sheet(pack_id: str, data: dict, source_path: pathlib.Path) -> tuple[str
     return ("元数据", ["字段", "值"], rows, [24, 72])
 
 
+def normalized_source_rows(value) -> list[list]:
+    """Normalize source containers that may be lists or ID-keyed dictionaries."""
+    rows = []
+    if isinstance(value, dict):
+        iterable = value.items()
+    elif isinstance(value, list):
+        iterable = [(None, item) for item in value]
+    else:
+        return rows
+
+    for source_id, payload in iterable:
+        if isinstance(payload, dict):
+            sid = payload.get("id") or source_id or ""
+            name = payload.get("name") or payload.get("title") or payload.get("label") or ""
+            url = payload.get("url") or payload.get("officialUrl") or payload.get("sourceUrl") or ""
+            note = payload.get("note") or payload.get("description") or payload.get("status") or ""
+            jurisdiction = payload.get("jurisdiction") or payload.get("region") or ""
+        else:
+            sid = source_id or ""
+            name = payload
+            url = ""
+            note = ""
+            jurisdiction = ""
+        rows.append([sid, name, url, note, jurisdiction])
+    return rows
+
+
 def regulations_sheets(data: dict, source_path: pathlib.Path):
     headers = ["ID", "Stable ID", "地区", "法域层级", "主题", "文档级别", "原文名称", "中文名称", "编号/年份", "适用范围与目的", "效力/采用情况", "官方 URL", "下载 URL", "下载与版权说明", "核验日期", "搜索关键词"]
     rows = []
@@ -138,9 +165,7 @@ def terminology_sheets(data: dict, source_path: pathlib.Path):
     rows = []
     for e in data.get("terms", []):
         rows.append([e.get("id"), e.get("stableId"), e.get("category"), e.get("zhCN"), e.get("jaJP"), e.get("jaReading"), e.get("enUS"), e.get("jurisdiction"), e.get("conceptType"), e.get("equivalence"), e.get("definitionZh"), e.get("definitionJa"), e.get("definitionEn"), e.get("aliases", []), e.get("confusableOrRelated"), e.get("sourceIds", []), e.get("sourceStatus"), e.get("reviewNote"), e.get("translationStatus"), e.get("lastReviewed"), e.get("relatedTermIds", []), e.get("releaseStatus")])
-    source_rows = []
-    for s in data.get("sources", []):
-        source_rows.append([s.get("id"), s.get("name") or s.get("title"), s.get("url"), s.get("note"), s.get("jurisdiction")])
+    source_rows = normalized_source_rows(data.get("sources", []))
     return [("术语", headers, rows, [7, 18, 16, 18, 22, 18, 26, 16, 18, 18, 42, 42, 42, 28, 34, 24, 22, 34, 18, 14, 24, 28]), ("来源", ["Source ID", "名称", "URL", "说明", "法域"], source_rows, [18, 32, 42, 52, 18]), meta_sheet("planning-terminology", data, source_path)]
 
 

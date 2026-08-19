@@ -13,7 +13,7 @@
     "ja-JP": "中国・日本・英語圏の都市計画文脈を横断する三言語の用語、定義、対応関係、出典。",
     "en-US": "Trilingual planning terminology, definitions, equivalence notes and sources across Chinese, Japanese and English contexts."
   },
-  "minAppVersion": "1.13.0",
+  "minAppVersion": "1.9.2",
   "dataPath": "data/terminology.json",
   "schemaPath": "schemas/planning-terminology.schema.json",
   "publisher": "UrbanPlanToolbox",

@@ -25,6 +25,8 @@ jobs:
         run: python scripts/validate.py
       - name: Build packages
         run: python scripts/build_packs.py
+      - name: Generate Excel snapshots
+        run: python scripts/generate_excel.py --output-root excel
       - name: Generate catalog
         run: python scripts/generate_catalog.py --repository KiYouJyo/UrbanPlanToolbox_Data --tag "${{ inputs.tag }}" --write-source
       - name: Publish immutable release assets
@@ -36,17 +38,17 @@ jobs:
             exit 1
           fi
           gh release create "${{ inputs.tag }}" \
-            dist/*.uptdata dist/SHA256SUMS.txt dist/catalog-v1.json \
+            dist/*.uptdata dist/SHA256SUMS.txt dist/catalog-v1.json excel/*/*.xlsx \
             --title "UrbanPlanToolbox Data ${{ inputs.tag }}" \
-            --notes "Official UrbanPlanToolbox data-pack release. Packages are validated, versioned independently from the app, and intended for local offline use after download."
-      - name: Update fixed catalog endpoint on main
+            --notes "Official UrbanPlanToolbox data-pack release. Packages are validated, versioned independently from the app, and intended for local offline use after download. Human-readable Excel snapshots are included for quick review."
+      - name: Update fixed catalog endpoint and Excel snapshots on main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add catalog/catalog-v1.json
+          git add catalog/catalog-v1.json excel/
           if git diff --cached --quiet; then
-            echo "Catalog unchanged."
+            echo "Catalog and Excel snapshots unchanged."
           else
-            git commit -m "data: publish catalog for ${{ inputs.tag }}"
+            git commit -m "data: publish catalog and Excel snapshots for ${{ inputs.tag }}"
             git push origin HEAD:main
           fi

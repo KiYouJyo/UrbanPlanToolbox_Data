@@ -23,14 +23,28 @@ jobs:
         run: python scripts/build_packs.py
       - name: Generate dry-run catalog
         run: python scripts/generate_catalog.py --repository KiYouJyo/UrbanPlanToolbox_Data --tag data-validation
-      - name: Inspect packages
+      - name: Generate dry-run Excel snapshots
+        run: python scripts/generate_excel.py --output-root dist/excel
+      - name: Inspect packages and Excel snapshots
         run: |
           python - <<'PY'
           import pathlib, zipfile
+
           for p in pathlib.Path('dist').glob('*.uptdata'):
               with zipfile.ZipFile(p) as z:
                   names = z.namelist()
                   assert names[0] == 'manifest.json'
                   assert all(not n.startswith('/') and '..' not in pathlib.PurePosixPath(n).parts for n in names)
                   print(p.name, names)
+
+          excel_files = sorted(pathlib.Path('dist/excel').glob('*/*.xlsx'))
+          assert len(excel_files) == 3, f'Expected exactly three current Excel snapshots, got {len(excel_files)}'
+          required = {'[Content_Types].xml', 'xl/workbook.xml', 'xl/styles.xml'}
+          for p in excel_files:
+              with zipfile.ZipFile(p) as z:
+                  names = set(z.namelist())
+                  missing = required - names
+                  assert not missing, f'{p}: missing {sorted(missing)}'
+                  assert any(n.startswith('xl/worksheets/sheet') for n in names), f'{p}: no worksheets'
+                  print(p.name, p.stat().st_size)
           PY

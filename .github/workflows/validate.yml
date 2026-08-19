@@ -1,0 +1,36 @@
+name: Data validation
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate data
+        run: python scripts/validate.py
+      - name: Build data packs
+        run: python scripts/build_packs.py
+      - name: Generate dry-run catalog
+        run: python scripts/generate_catalog.py --repository KiYouJyo/UrbanPlanToolbox_Data --tag data-validation
+      - name: Inspect packages
+        run: |
+          python - <<'PY'
+          import pathlib, zipfile
+          for p in pathlib.Path('dist').glob('*.uptdata'):
+              with zipfile.ZipFile(p) as z:
+                  names = z.namelist()
+                  assert names[0] == 'manifest.json'
+                  assert all(not n.startswith('/') and '..' not in pathlib.PurePosixPath(n).parts for n in names)
+                  print(p.name, names)
+          PY

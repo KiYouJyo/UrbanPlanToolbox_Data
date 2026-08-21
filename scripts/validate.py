@@ -11,6 +11,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 PACKS = ("planning-regulations", "planning-terminology", "design-concepts")
 CALVER = re.compile(r"^\d{4}\.\d{2}\.\d+$")
 FORBIDDEN_EXTENSIONS = {".exe", ".dll", ".ps1", ".bat", ".cmd", ".com", ".msi", ".msix", ".js", ".vbs", ".py"}
+LANGUAGES = ("zh-CN", "ja-JP", "en-US")
 errors: list[str] = []
 
 
@@ -34,6 +35,16 @@ def check_url(value, label):
         error(f"{label}: URL must be http/https")
 
 
+def require_localized(value, label: str):
+    if not isinstance(value, dict):
+        error(f"{label}: localized object required")
+        return
+    for language in LANGUAGES:
+        text = value.get(language)
+        if not isinstance(text, str) or not text.strip():
+            error(f"{label}: missing {language}")
+
+
 stable_global: set[str] = set()
 
 for pack_id in PACKS:
@@ -51,9 +62,7 @@ for pack_id in PACKS:
         error(f"{pack_id}: manifest id mismatch")
     if not CALVER.match(str(manifest.get("version", ""))):
         error(f"{pack_id}: invalid CalVer")
-    for language in ("zh-CN", "ja-JP", "en-US"):
-        if not manifest.get("displayName", {}).get(language):
-            error(f"{pack_id}: missing displayName {language}")
+    require_localized(manifest.get("displayName", {}), f"{pack_id}:displayName")
 
     data_path = ROOT / "packs" / pack_id / manifest.get("dataPath", "")
     if data_path.suffix.lower() in FORBIDDEN_EXTENSIONS:
@@ -102,15 +111,55 @@ for pack_id in PACKS:
                 if item.get(key) in (None, ""):
                     error(f"{pack_id}:{stable_id}: missing {key}")
         else:
-            title = item.get("title", {})
-            definition = item.get("definition", {})
-            for language in ("zh-CN", "ja-JP", "en-US"):
-                if not title.get(language):
-                    error(f"{pack_id}:{stable_id}: missing title {language}")
-                if not definition.get(language):
-                    error(f"{pack_id}:{stable_id}: missing definition {language}")
+            require_localized(item.get("title", {}), f"{pack_id}:{stable_id}:title")
+            require_localized(item.get("definition", {}), f"{pack_id}:{stable_id}:definition")
+            require_localized(item.get("caseNote", {}), f"{pack_id}:{stable_id}:caseNote")
             if not item.get("sourceIds"):
                 error(f"{pack_id}:{stable_id}: sourceIds required")
+            if not isinstance(item.get("category"), str) or not item.get("category", "").strip():
+                error(f"{pack_id}:{stable_id}: category required")
+            for field in ("projectTypes", "tags"):
+                values = item.get(field)
+                if not isinstance(values, list) or any(not isinstance(value, str) or not value.strip() for value in values):
+                    error(f"{pack_id}:{stable_id}: {field} must be a string array without blanks")
+
+    if pack_id == "design-concepts":
+        expected_ids = set(range(1, len(collection) + 1))
+        if numeric_ids != expected_ids:
+            error(f"design-concepts: numeric IDs must be contiguous 1-{len(collection)}")
+
+        labels = data.get("labels")
+        if not isinstance(labels, dict):
+            error("design-concepts: labels object required")
+            labels = {}
+        label_groups = {
+            "categories": {item.get("category") for item in collection if item.get("category")},
+            "projectTypes": {value for item in collection for value in item.get("projectTypes", [])},
+            "tags": {value for item in collection for value in item.get("tags", [])},
+        }
+        for group_name, used_values in label_groups.items():
+            group = labels.get(group_name)
+            if not isinstance(group, dict):
+                error(f"design-concepts: labels.{group_name} object required")
+                continue
+            for key, localized in group.items():
+                require_localized(localized, f"design-concepts:labels.{group_name}.{key}")
+            for value in sorted(used_values):
+                if value not in group:
+                    error(f"design-concepts: labels.{group_name} missing used key {value}")
+
+        source_ids = {source.get("id") for source in data.get("sources", []) if isinstance(source, dict)}
+        for source in data.get("sources", []):
+            if not isinstance(source, dict):
+                error("design-concepts: source must be an object")
+                continue
+            source_id = source.get("id", "<missing>")
+            require_localized(source.get("name", {}), f"design-concepts:source:{source_id}:name")
+            require_localized(source.get("note", {}), f"design-concepts:source:{source_id}:note")
+        for item in collection:
+            for source_id in item.get("sourceIds", []):
+                if source_id not in source_ids:
+                    error(f"design-concepts:{item.get('stableId')}: unknown sourceId {source_id}")
 
 if errors:
     print("Data validation failed:")

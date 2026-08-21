@@ -4,9 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: Release tag, for example data-2026.08.1
+        description: Release tag, for example data-2026.08.3
         required: true
-        default: data-2026.08.1
+        default: data-2026.08.3
+  push:
+    branches: [main]
+    paths:
+      - '.github/data-release-2026.08.3.trigger'
 
 permissions:
   contents: write
@@ -21,6 +25,20 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Resolve release tag
+        id: release
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_TAG: ${{ inputs.tag || '' }}
+        run: |
+          if [ "$EVENT_NAME" = "push" ]; then
+            echo "tag=data-2026.08.3" >> "$GITHUB_OUTPUT"
+          else
+            echo "tag=$INPUT_TAG" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Assemble design concepts 2026.08.3
+        run: python scripts/apply_design_concepts_2026_08_3.py
       - name: Validate
         run: python scripts/validate.py
       - name: Build packages
@@ -28,27 +46,30 @@ jobs:
       - name: Generate Excel snapshots
         run: python scripts/generate_excel.py --output-root excel
       - name: Generate catalog
-        run: python scripts/generate_catalog.py --repository KiYouJyo/UrbanPlanToolbox_Data --tag "${{ inputs.tag }}" --write-source
+        env:
+          RELEASE_TAG: ${{ steps.release.outputs.tag }}
+        run: python scripts/generate_catalog.py --repository KiYouJyo/UrbanPlanToolbox_Data --tag "$RELEASE_TAG" --write-source
       - name: Publish immutable release assets
         env:
           GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ steps.release.outputs.tag }}
         run: |
-          if gh release view "${{ inputs.tag }}" >/dev/null 2>&1; then
-            echo "Release ${{ inputs.tag }} already exists; refusing to overwrite immutable assets."
-            exit 1
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            echo "Release $RELEASE_TAG already exists; retaining immutable assets."
+          else
+            gh release create "$RELEASE_TAG" \
+              dist/*.uptdata dist/SHA256SUMS.txt dist/catalog-v1.json excel/*/*.xlsx \
+              --title "UrbanPlanToolbox Data $RELEASE_TAG" \
+              --notes "Official UrbanPlanToolbox data-pack release. Design Concepts 2026.08.3 contains 109 reviewed concepts and complete Chinese, Japanese and English localization for titles, definitions, categories, project types, tags, case notes and source notes. Packages are validated, versioned independently from the app, and intended for local offline use after download. Human-readable Excel snapshots are included for quick review."
           fi
-          gh release create "${{ inputs.tag }}" \
-            dist/*.uptdata dist/SHA256SUMS.txt dist/catalog-v1.json excel/*/*.xlsx \
-            --title "UrbanPlanToolbox Data ${{ inputs.tag }}" \
-            --notes "Official UrbanPlanToolbox data-pack release. Packages are validated, versioned independently from the app, and intended for local offline use after download. Human-readable Excel snapshots are included for quick review."
-      - name: Update fixed catalog endpoint and Excel snapshots on main
+      - name: Commit canonical v3 data, catalog and Excel snapshots on main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add catalog/catalog-v1.json excel/
+          git add packs/design-concepts/data/concepts.json packs/design-concepts/manifest.source.json catalog/catalog-v1.json excel/
           if git diff --cached --quiet; then
-            echo "Catalog and Excel snapshots unchanged."
+            echo "Canonical data, catalog and Excel snapshots unchanged."
           else
-            git commit -m "data: publish catalog and Excel snapshots for ${{ inputs.tag }}"
+            git commit -m "data: publish design concepts 2026.08.3"
             git push origin HEAD:main
           fi

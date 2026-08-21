@@ -1,0 +1,339 @@
+[
+  {
+    "id": 19,
+    "stableId": "concept-polycentric-city",
+    "title": {
+      "zh-CN": "多中心城市",
+      "ja-JP": "多核型都市",
+      "en-US": "Polycentric City"
+    },
+    "aliases": [],
+    "category": "城市结构",
+    "projectTypes": [
+      "总体规划",
+      "都市圈规划",
+      "城市更新"
+    ],
+    "tags": [
+      "空间结构",
+      "连通网络",
+      "产业创新"
+    ],
+    "definition": {
+      "zh-CN": "通过多个功能互补、交通联系紧密的城市中心分担就业、服务与公共活动，降低单中心过度集聚带来的拥堵与空间失衡。",
+      "ja-JP": "機能が相互補完し交通で結ばれた複数の都市拠点に雇用・サービス・公共活動を分担させ、単一中心への過度な集中を抑える都市構造。",
+      "en-US": "An urban structure that distributes jobs, services and civic activity across multiple complementary, well-connected centers instead of relying on a single dominant core."
+    },
+    "caseNote": {
+      "zh-CN": "适合都市圈、组团城市和大尺度更新；重点检验各中心的功能差异、交通联系和服务半径。"
+    },
+    "sourceIds": [
+      "UPT-EDITORIAL"
+    ],
+    "reviewStatus": "reviewed",
+    "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 20,
+    "stableId": "concept-urban-transect",
+    "title": {
+      "zh-CN": "城市断面梯度",
+      "ja-JP": "アーバン・トランセクト",
+      "en-US": "Urban Transect"
+    },
+    "aliases": [],
+    "category": "城市结构",
+    "projectTypes": [
+      "城市设计",
+      "分区规划",
+      "形态控制"
+    ],
+    "tags": [
+      "空间结构",
+      "街道界面"
+    ],
+    "definition": {
+      "zh-CN": "按照从自然环境、郊野到高密度城市核心的连续梯度组织空间类型，使建筑形态、道路、公共空间和开发强度与所处环境相匹配。",
+      "ja-JP": "自然環境・郊外から高密度な都心までを連続的な勾配として捉え、建築形態、道路、公共空間、開発密度を各環境に対応させる考え方。",
+      "en-US": "A framework that organizes urban form along a continuum from natural and rural settings to dense urban cores, aligning form and intensity with context."
+    },
+    "caseNote": {
+      "zh-CN": "适合制定形态导则和城乡过渡区控制，不应机械套用固定分区。"
+    },
+    "sourceIds": [
+      "UPT-EDITORIAL"
+    ],
+    "reviewStatus": "reviewed",
+    "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 21,
+    "stableId": "concept-fine-grained-urbanism",
+    "title": {
+      "zh-CN": "细颗粒城市主义",
+      "ja-JP": "ファイングレイン・アーバニズム",
+      "en-US": "Fine-Grained Urbanism"
+    },
+    "aliases": [],
+    "category": "城市结构",
+    "projectTypes": [
+      "城市更新",
+      "街区设计",
+      "旧城保护"
+    ],
+    "tags": [
+      "空间结构",
+      "存量更新",
+      "渐进实施"
+    ],
+    "definition": {
+      "zh-CN": "通过较小地块、较多产权与多样化建筑和业态形成可逐步演化的城市肌理，提高街道界面变化、经营多样性与更新弹性。",
+      "ja-JP": "小規模な敷地、多様な所有、建物・用途の混在によって段階的に変化できる都市組織をつくり、街路の多様性と更新の柔軟性を高める。",
+      "en-US": "An approach favoring small parcels, diverse ownership and varied buildings and uses to create an adaptable, incrementally evolving urban fabric."
+    },
+    "caseNote": {
+      "zh-CN": "适合旧城、小街区商业和渐进更新；需结合地价、产权和消防等实施条件。"
+    },
+    "sourceIds": [
+      "UPT-EDITORIAL"
+    ],
+    "reviewStatus": "reviewed",
+    "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 22,
+    "stableId": "concept-permeable-urban-fabric",
+    "title": {
+      "zh-CN": "可渗透城市肌理",
+      "ja-JP": "透過性の高い都市組織",
+      "en-US": "Permeable Urban Fabric"
+    },
+    "aliases": [],
+    "category": "城市结构",
+    "projectTypes": [
+      "城市设计",
+      "街区更新",
+      "步行系统"
+    ],
+    "tags": [
+      "连通网络",
+      "慢行交通",
+      "街道界面"
+    ],
+    "definition": {
+      "zh-CN": "通过增加可进入的街巷、通道、开放地块边界和多路径选择，提升步行与骑行穿越街区的便利性与空间连续性。",
+      "ja-JP": "街路・路地・通り抜け動線や開放的な敷地境界を増やし、徒歩・自転車が街区を多様な経路で通過できる連続性を高める考え方。",
+      "en-US": "A connected urban fabric that offers multiple accessible routes through blocks, improving pedestrian and cycling choice, continuity and local permeability."
+    },
+    "caseNote": {
+      "zh-CN": "适合大地块拆分、园区开放和旧城织补；需兼顾安全、产权与运营边界。"
+    },
+    "sourceIds": [
+      "UPT-EDITORIAL"
+    ],
+    "reviewStatus": "reviewed",
+    "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 23,
+    "stableId": "concept-perimeter-block",
+    "title": {
+      "zh-CN": "周边式街区",
+      "ja-JP": "ペリメーターブロック",
+      "en-US": "Perimeter Block"
+    },
+    "aliases": [],
+    "category": "城市结构",
+    "projectTypes": [
+      "居住区设计",
+      "城市设计",
+      "街区更新"
+    ],
+    "tags": [
+      "空间结构",
+      "街道界面",
+      "公共空间"
+    ],
+    "definition": {
+      "zh-CN": "以建筑沿街区边缘连续或半连续布置，形成明确街道界面并在内部围合共享庭院或半公共空间的街区组织方式。",
+      "ja-JP": "建物を街区外周に連続または半連続で配置し、明確な街路景観と内部の共用中庭・半公共空間を形成する街区形式。",
+      "en-US": "A block form with buildings arranged along the perimeter to define streets while enclosing a shared or semi-private interior courtyard."
+    },
+    "caseNote": {
+      "zh-CN": "适合中高密度居住和混合街区；需处理通风、日照、消防和首层出入口。"
+    },
+    "sourceIds": [
+      "UPT-EDITORIAL"
+    ],
+    "reviewStatus": "reviewed",
+    "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 24,
+    "stableId": "concept-open-block",
+    "title": {
+      "zh-CN": "开放式街区",
+      "ja-JP": "オープンブロック",
+      "en-US": "Open Block"
+    },
+    "aliases": [],
+    "category": "城市结构",
+    "projectTypes": [
+      "城市设计",
+      "住区设计",
+      "公共空间"
+    ],
+    "tags": [
+      "连通网络",
+      "公共空间",
+      "街道界面"
+    ],
+    "definition": {
+      "zh-CN": "弱化封闭地块边界，将内部道路、绿地或步行空间与城市公共网络连接，使街区具备更高的通达性和公共性。",
+      "ja-JP": "閉鎖的な街区境界を弱め、内部道路・緑地・歩行空間を都市の公共ネットワークに接続して、通行性と公共性を高める考え方。",
+      "en-US": "A block strategy that opens internal routes and open spaces to the surrounding public network, reducing enclosure and increasing accessibility."
+    },
+    "caseNote": {
+      "zh-CN": "适合大型住区、校园和园区改造；开放程度应与管理、安全和产权机制协同。"
+    },
+    "sourceIds": [
+      "UPT-EDITORIAL"
+    ],
+    "reviewStatus": "reviewed",
+    "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 25,
+    "stableId": "concept-development-intensity-gradient",
+    "title": {
+      "zh-CN": "开发强度梯度",
+      "ja-JP": "開発密度勾配",
+      "en-US": "Development Intensity Gradient"
+    },
+    "aliases": [],
+    "category": "城市结构",
+    "projectTypes": [
+      "城市设计",
+      "TOD",
+      "分区规划"
+    ],
+    "tags": [
+      "空间结构",
+      "连通网络"
+    ],
+    "definition": {
+      "zh-CN": "依据交通可达性、公共服务、生态敏感性和城市界面等条件，连续调整容积率、建筑高度和密度，而非采用突变式强度分区。",
+      "ja-JP": "交通利便性、公共サービス、生態的感度、都市景観などに応じて容積率・建物高さ・密度を連続的に調整し、急激な密度差を避ける方法。",
+      "en-US": "A spatial strategy that varies floor area ratio, building height and density gradually in response to accessibility, services, ecology and urban context."
+    },
+    "caseNote": {
+      "zh-CN": "适合站点周边、滨水和山地城市；应与市场、基础设施容量和景观控制结合。"
+    },
+    "sourceIds": [
+      "UPT-EDITORIAL"
+    ],
+    "reviewStatus": "reviewed",
+    "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 26,
+    "stableId": "concept-view-corridor",
+    "title": {
+      "zh-CN": "视线廊道",
+      "ja-JP": "ビューコリドー",
+      "en-US": "View Corridor"
+    },
+    "aliases": [],
+    "category": "城市结构",
+    "projectTypes": [
+      "城市设计",
+      "景观规划",
+      "历史保护"
+    ],
+    "tags": [
+      "空间结构",
+      "场所认知",
+      "公共空间"
+    ],
+    "definition": {
+      "zh-CN": "通过控制建筑高度、体量和开敞空间，保护或创造从特定观察点通向地标、山体、水体或天际线的连续视域。",
+      "ja-JP": "建物高さ・ボリューム・オープンスペースを調整し、特定の視点からランドマーク、山並み、水面、スカイラインへの連続した視界を確保する。",
+      "en-US": "A protected or designed line of sight from key viewpoints toward landmarks, landscapes, water or skyline, maintained through form and height controls."
+    },
+    "caseNote": {
+      "zh-CN": "适合历史城区、滨水和山水城市；需要明确观察点、目标物和控制范围。"
+    },
+    "sourceIds": [
+      "UPT-EDITORIAL"
+    ],
+    "reviewStatus": "reviewed",
+    "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 27,
+    "stableId": "concept-layered-skyline",
+    "title": {
+      "zh-CN": "天际线分层",
+      "ja-JP": "スカイラインの階層化",
+      "en-US": "Layered Skyline"
+    },
+    "aliases": [],
+    "category": "城市结构",
+    "projectTypes": [
+      "城市设计",
+      "核心区设计",
+      "滨水设计"
+    ],
+    "tags": [
+      "空间结构",
+      "场所认知"
+    ],
+    "definition": {
+      "zh-CN": "通过背景、主体、节点和地标等不同高度层级组织建筑轮廓，使城市远景具有连续性、节奏和主次关系。",
+      "ja-JP": "背景・主要ボリューム・節点・ランドマークなどの高さを階層化し、都市遠景に連続性、リズム、明確な主従関係を与える。",
+      "en-US": "A skyline composition that uses distinct height layers for background fabric, primary masses, nodes and landmarks to create rhythm and hierarchy."
+    },
+    "caseNote": {
+      "zh-CN": "适合高层集中区和滨水门户；应同时校核视线、日照、风环境和城市地标体系。"
+    },
+    "sourceIds": [
+      "UPT-EDITORIAL"
+    ],
+    "reviewStatus": "reviewed",
+    "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 28,
+    "stableId": "concept-urban-edge-stitching",
+    "title": {
+      "zh-CN": "城市边缘缝合",
+      "ja-JP": "都市エッジの縫合",
+      "en-US": "Urban Edge Stitching"
+    },
+    "aliases": [],
+    "category": "城市结构",
+    "projectTypes": [
+      "城市更新",
+      "基础设施缝合",
+      "滨水更新"
+    ],
+    "tags": [
+      "连通网络",
+      "存量更新",
+      "公共空间"
+    ],
+    "definition": {
+      "zh-CN": "针对铁路、快速路、河道、围墙或大型地块造成的空间割裂，通过跨越、开口、公共空间和功能重组恢复两侧联系。",
+      "ja-JP": "鉄道、高速道路、河川、塀、大規模敷地などによる分断に対し、横断動線、開口、公共空間、用途再編によって両側の関係を回復する。",
+      "en-US": "A strategy for reconnecting areas divided by infrastructure, water, walls or large parcels through crossings, openings, public space and programmatic links."
+    },
+    "caseNote": {
+      "zh-CN": "适合铁路沿线、快速路两侧和滨水更新；需把交通工程与城市空间同步处理。"
+    },
+    "sourceIds": [
+      "UPT-EDITORIAL"
+    ],
+    "reviewStatus": "reviewed",
+    "lastReviewed": "2026-08-21"
+  }
+]

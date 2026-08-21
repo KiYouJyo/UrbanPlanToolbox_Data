@@ -1,0 +1,12 @@
+{
+  "projectTypes": {
+    "交通改善": {"zh-CN":"交通改善","ja-JP":"交通改善","en-US":"Transport Improvement"},
+    "交通空间": {"zh-CN":"交通空间","ja-JP":"交通空間","en-US":"Mobility Space"},
+    "住宅设计": {"zh-CN":"住宅设计","ja-JP":"住宅設計","en-US":"Housing Design"},
+    "商业更新": {"zh-CN":"商业更新","ja-JP":"商業再生","en-US":"Commercial Renewal"},
+    "基础设施缝合": {"zh-CN":"基础设施缝合","ja-JP":"インフラによる都市縫合","en-US":"Infrastructure Stitching"},
+    "滨水更新": {"zh-CN":"滨水更新","ja-JP":"ウォーターフロント再生","en-US":"Waterfront Renewal"},
+    "社区更新": {"zh-CN":"社区更新","ja-JP":"コミュニティ再生","en-US":"Community Renewal"},
+    "街道界面": {"zh-CN":"街道界面","ja-JP":"街路界面","en-US":"Street Interface"}
+  }
+}

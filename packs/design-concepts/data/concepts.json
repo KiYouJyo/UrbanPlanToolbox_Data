@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "2026.08.2",
+  "dataVersion": "2026.08.3",
   "lastReviewed": "2026-08-21",
   "sources": [
     {
@@ -15,6 +15,20 @@
         "zh-CN": "基于规划与建筑设计领域常用概念进行结构化解释；用于概念检索与设计沟通，不替代原始文献、规范或专业判断。",
         "ja-JP": "都市計画・建築分野で一般的に用いられる概念を構造化して解説したもの。原典、規範、専門的判断に代わるものではない。",
         "en-US": "Structured explanatory summaries of commonly used planning and architectural design concepts; not a substitute for original literature, standards or professional judgment."
+      }
+    },
+    {
+      "id": "UPT-WUPEN-2026-08",
+      "name": {
+        "zh-CN": "WUPEN City 获奖作品理念审核（2026-08）",
+        "ja-JP": "WUPEN City 受賞作品コンセプトレビュー（2026-08）",
+        "en-US": "WUPEN City Awarded-Project Concept Review (2026-08)"
+      },
+      "type": "curated-project-review",
+      "note": {
+        "zh-CN": "从 WUPEN City 获奖作品标题中的显式理论、理念、视角与模式表述出发，经专业相关性、概念可定义性、案例可核验性和去重审核后形成候选；正式条目的定义与案例由 UrbanPlanToolbox 编辑复核。",
+        "ja-JP": "WUPEN City 受賞作品タイトルに明示された理論・理念・視点・モデルを出発点とし、専門分野との関連性、定義可能性、事例検証、重複排除を経て候補化した。最終的な定義と事例は UrbanPlanToolbox が編集・確認している。",
+        "en-US": "Candidates were derived from explicit theory, concept, perspective and model statements in WUPEN City awarded-project titles, then screened for disciplinary relevance, definability, verifiable cases and duplication. Final definitions and cases are editorially reviewed by UrbanPlanToolbox."
       }
     }
   ],
@@ -45,7 +59,9 @@
         "en-US": "A strategy that uses limited, precise and repeatable spatial interventions as catalysts to trigger broader changes in surrounding value, use and activity."
       },
       "caseNote": {
-        "zh-CN": "适合解释“先做关键节点，再由节点带动整体”的设计逻辑，可与 TOD 门户、滨水节点、公共服务中心等策略组合。"
+        "zh-CN": "适合解释“先做关键节点，再由节点带动整体”的设计逻辑，可与 TOD 门户、滨水节点、公共服务中心等策略组合。",
+        "ja-JP": "「重要な拠点を先に整備し、そこから地区全体へ波及させる」設計ロジックの説明に適する。TOD拠点、ウォーターフロント、公共サービス拠点などと組み合わせられる。",
+        "en-US": "Useful for explaining a 'start with strategic nodes, then trigger wider change' logic, and can be combined with TOD gateways, waterfront nodes or civic-service centers."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -79,7 +95,9 @@
         "en-US": "Transitional space between indoor and outdoor, public and private, or open and enclosed conditions, often created by arcades, pilotis, canopies or semi-outdoor terraces."
       },
       "caseNote": {
-        "zh-CN": "适合用于入口、首层公共界面、校园和商业街区，重点关注停留、遮阴、雨天使用与空间连续性。"
+        "zh-CN": "适合用于入口、首层公共界面、校园和商业街区，重点关注停留、遮阴、雨天使用与空间连续性。",
+        "ja-JP": "入口、地上階の公共界面、キャンパス、商業地区に適する。滞在、日陰、雨天利用、空間の連続性を重視する。",
+        "en-US": "Suitable for entrances, public ground-floor edges, campuses and commercial streets, with emphasis on lingering, shade, wet-weather use and spatial continuity."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -113,7 +131,9 @@
         "en-US": "A station-centered urban gateway combining higher-intensity mixed use, pedestrian networks and public space around transit."
       },
       "caseNote": {
-        "zh-CN": "适合站点周边更新和新区核心节点，需同时控制换乘效率、步行可达性、首层活力与天际线关系。"
+        "zh-CN": "适合站点周边更新和新区核心节点，需同时控制换乘效率、步行可达性、首层活力与天际线关系。",
+        "ja-JP": "駅周辺再生や新市街地の中核拠点に適する。乗換効率、歩行アクセス、地上階の活気、スカイラインを同時に調整する。",
+        "en-US": "Suitable for station-area renewal and new-district cores; coordinate interchange efficiency, walkability, active ground floors and skyline composition."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -147,7 +167,9 @@
         "en-US": "An interconnected system of water, green space, ecological corridors and open spaces that combines ecological, water-management, recreation and active-mobility functions."
       },
       "caseNote": {
-        "zh-CN": "适合跨地块或跨尺度组织生态与公共空间，避免把绿地和水系处理成彼此孤立的斑块。"
+        "zh-CN": "适合跨地块或跨尺度组织生态与公共空间，避免把绿地和水系处理成彼此孤立的斑块。",
+        "ja-JP": "敷地やスケールをまたいで生態系と公共空間を編成する際に有効。緑地や水系を孤立したパッチとして扱わない。",
+        "en-US": "Useful for organizing ecology and public space across parcels and scales; avoid treating green areas and waterways as isolated patches."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -181,7 +203,9 @@
         "en-US": "The integration of housing, work, retail, services and other uses within a building, site or walkable area to improve temporal diversity and spatial efficiency."
       },
       "caseNote": {
-        "zh-CN": "应结合真实需求与交通承载力设计，不等同于简单增加功能种类。"
+        "zh-CN": "应结合真实需求与交通承载力设计，不等同于简单增加功能种类。",
+        "ja-JP": "実需と交通容量に基づいて計画し、単に用途の種類を増やすことと同一視しない。",
+        "en-US": "Design around actual demand and transport capacity; mixed use is not simply the addition of more program types."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -215,7 +239,9 @@
         "en-US": "An urban development concept that concentrates growth and services around efficient urban structure and public transport to limit sprawl."
       },
       "caseNote": {
-        "zh-CN": "适用于存量收缩、公共服务重组和公共交通导向的结构优化，应避免被简化为单纯提高开发强度。"
+        "zh-CN": "适用于存量收缩、公共服务重组和公共交通导向的结构优化，应避免被简化为单纯提高开发强度。",
+        "ja-JP": "人口減少下の既成市街地、公共サービス再編、公共交通指向の構造改善に適する。単なる高密度化に矮小化しない。",
+        "en-US": "Suitable for shrinking built-up areas, service restructuring and transit-oriented spatial optimization; it should not be reduced to simply increasing density."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -249,7 +275,9 @@
         "en-US": "An accessibility concept seeking to place everyday services and opportunities within a short walk or bicycle trip from residents."
       },
       "caseNote": {
-        "zh-CN": "适合社区尺度设施评估和更新，实施时应结合人口结构、地形、气候与真实出行行为。"
+        "zh-CN": "适合社区尺度设施评估和更新，实施时应结合人口结构、地形、气候与真实出行行为。",
+        "ja-JP": "地域スケールの施設評価や更新に適する。人口構成、地形、気候、実際の移動行動を考慮する。",
+        "en-US": "Useful for neighborhood-scale facility assessment and renewal; account for demographics, terrain, climate and observed travel behavior."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -283,7 +311,9 @@
         "en-US": "An urban water-management approach combining infiltration, detention, storage, purification, reuse and drainage to improve stormwater resilience."
       },
       "caseNote": {
-        "zh-CN": "应与地形、汇水分区、市政排水和公共空间一体化设计，不宜只表现为景观化雨水设施。"
+        "zh-CN": "应与地形、汇水分区、市政排水和公共空间一体化设计，不宜只表现为景观化雨水设施。",
+        "ja-JP": "地形、集水域、下水道、公共空間を一体で設計し、景観化した雨水施設だけにしない。",
+        "en-US": "Integrate terrain, catchments, municipal drainage and public space rather than treating sponge-city measures as decorative stormwater features."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -317,7 +347,9 @@
         "en-US": "A low-cost, reversible and rapid approach to testing spatial interventions and iterating them based on real-world use."
       },
       "caseNote": {
-        "zh-CN": "适合街道、停车空间、边角地和活动空间试验；正式化前需补足安全、无障碍和长期维护要求。"
+        "zh-CN": "适合街道、停车空间、边角地和活动空间试验；正式化前需补足安全、无障碍和长期维护要求。",
+        "ja-JP": "街路、駐車空間、余剰地、活動空間の実験に適する。本設化の前に安全、アクセシビリティ、長期維持を確認する。",
+        "en-US": "Suitable for testing streets, parking areas, leftover sites and activity spaces; formalization should address safety, accessibility and long-term maintenance."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -351,7 +383,9 @@
         "en-US": "A people-centered approach that combines design, programming and participation to strengthen the use value and identity of public places."
       },
       "caseNote": {
-        "zh-CN": "适合广场、街区、滨水和社区公共空间，设计之外需关注持续活动和运营机制。"
+        "zh-CN": "适合广场、街区、滨水和社区公共空间，设计之外需关注持续活动和运营机制。",
+        "ja-JP": "広場、街区、ウォーターフロント、地域公共空間に適する。物理設計だけでなく継続的な活動と運営を重視する。",
+        "en-US": "Suitable for plazas, districts, waterfronts and community public spaces; sustained programming and operations matter as much as physical design."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -385,7 +419,9 @@
         "en-US": "A street-design approach that balances walking, cycling, transit, driving, accessibility and public-life needs rather than prioritizing vehicle throughput alone."
       },
       "caseNote": {
-        "zh-CN": "适合道路更新与完整街区设计，应结合道路等级、公交功能、消防和装卸需求进行取舍。"
+        "zh-CN": "适合道路更新与完整街区设计，应结合道路等级、公交功能、消防和装卸需求进行取舍。",
+        "ja-JP": "道路更新や街区設計に適する。道路階級、公共交通、消防、荷捌きの条件と調整する。",
+        "en-US": "Suitable for street renewal and neighborhood design; balance road hierarchy, transit, emergency access and loading requirements."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -419,7 +455,9 @@
         "en-US": "The reuse of existing buildings through new programs and performance upgrades while retaining significant spatial, structural or cultural value."
       },
       "caseNote": {
-        "zh-CN": "适合工业建筑、商业建筑和历史环境更新，应同时评估结构安全、消防、节能和遗产价值。"
+        "zh-CN": "适合工业建筑、商业建筑和历史环境更新，应同时评估结构安全、消防、节能和遗产价值。",
+        "ja-JP": "工場、商業建築、歴史環境の再生に適する。構造安全、消防、省エネ、遺産価値を同時に評価する。",
+        "en-US": "Suitable for industrial, commercial and historic-building reuse; assess structural safety, fire protection, energy performance and heritage value together."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -453,7 +491,9 @@
         "en-US": "A phased and adaptable renewal strategy that improves areas through smaller interventions while reducing disruption from one-time comprehensive redevelopment."
       },
       "caseNote": {
-        "zh-CN": "适合产权复杂、资金分期或需要保留原有社区网络的地区，需提前定义阶段目标和接口。"
+        "zh-CN": "适合产权复杂、资金分期或需要保留原有社区网络的地区，需提前定义阶段目标和接口。",
+        "ja-JP": "権利関係が複雑、資金が段階的、または既存コミュニティを維持したい地区に適する。各段階の目標と接続条件を明確にする。",
+        "en-US": "Useful where ownership is complex, funding is phased or community networks should be retained; define goals and interfaces for each stage."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -487,7 +527,9 @@
         "en-US": "A targeted small-scale intervention strategy that acts on critical urban points to generate effects beyond the immediate project boundary."
       },
       "caseNote": {
-        "zh-CN": "与触媒式更新接近，但更强调“点”的诊断和精准介入，可用于口袋公园、节点空间和微更新。"
+        "zh-CN": "与触媒式更新接近，但更强调“点”的诊断和精准介入，可用于口袋公园、节点空间和微更新。",
+        "ja-JP": "都市触媒型更新に近いが、課題点の診断とピンポイント介入をより重視する。ポケットパーク、節点空間、微更新に適する。",
+        "en-US": "Close to catalytic renewal but more focused on diagnosing and intervening at specific points; useful for pocket parks, nodes and micro-renewal."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -521,7 +563,9 @@
         "en-US": "Prioritizing walking and cycling in spatial allocation, intersections, continuity and amenities to make short trips safer and more convenient."
       },
       "caseNote": {
-        "zh-CN": "适用于校园、社区、商业区和站点周边，需与公交、物流和无障碍系统共同设计。"
+        "zh-CN": "适用于校园、社区、商业区和站点周边，需与公交、物流和无障碍系统共同设计。",
+        "ja-JP": "キャンパス、地域、商業地区、駅周辺に適する。公共交通、物流、バリアフリーと一体で設計する。",
+        "en-US": "Suitable for campuses, neighborhoods, commercial districts and station areas; coordinate with transit, logistics and accessibility systems."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -555,7 +599,9 @@
         "en-US": "A continuous or near-continuous spatial link between habitats and ecological patches that supports species movement and ecological processes."
       },
       "caseNote": {
-        "zh-CN": "应依据目标物种、阻力面和现状生态条件确定宽度与节点，而不是仅用视觉绿带替代生态分析。"
+        "zh-CN": "应依据目标物种、阻力面和现状生态条件确定宽度与节点，而不是仅用视觉绿带替代生态分析。",
+        "ja-JP": "対象種、抵抗面、既存の生態条件に基づいて幅員と節点を設定し、見た目だけの緑帯で代替しない。",
+        "en-US": "Set widths and nodes using target species, resistance surfaces and existing ecological conditions rather than substituting a merely visual green belt."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -589,7 +635,9 @@
         "en-US": "A low-speed street environment where pedestrians, cyclists and vehicles share space with reduced conventional segregation."
       },
       "caseNote": {
-        "zh-CN": "适合低车速、较强公共生活需求的街道；必须通过设计和管理确保视障者识别、安全和消防通行。"
+        "zh-CN": "适合低车速、较强公共生活需求的街道；必须通过设计和管理确保视障者识别、安全和消防通行。",
+        "ja-JP": "低速で公共生活需要の高い街路に適する。視覚障害者の認知、安全、消防通行を設計・管理で確保する。",
+        "en-US": "Suitable for low-speed streets with strong public-life demand; design and management must protect legibility for visually impaired users, safety and emergency access."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -623,7 +671,9 @@
         "en-US": "An urban resilience approach that uses redundancy, diversity, adaptability and recovery capacity to maintain critical functions under shocks and stresses."
       },
       "caseNote": {
-        "zh-CN": "适用于跨系统规划，应把风险识别、关键基础设施、脆弱群体和恢复路径纳入同一框架。"
+        "zh-CN": "适用于跨系统规划，应把风险识别、关键基础设施、脆弱群体和恢复路径纳入同一框架。",
+        "ja-JP": "複数システムを横断する計画に適し、リスク、重要インフラ、脆弱な人々、復旧経路を同一の枠組みに入れる。",
+        "en-US": "Suitable for cross-system planning; place risk identification, critical infrastructure, vulnerable groups and recovery pathways within one framework."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -657,7 +707,9 @@
         "en-US": "An urban structure that distributes jobs, services and civic activity across multiple complementary, well-connected centers instead of relying on a single dominant core."
       },
       "caseNote": {
-        "zh-CN": "适合都市圈、组团城市和大尺度更新；重点检验各中心的功能差异、交通联系和服务半径。"
+        "zh-CN": "适合都市圈、组团城市和大尺度更新；重点检验各中心的功能差异、交通联系和服务半径。",
+        "ja-JP": "都市圏、分節型都市、大規模再生に適する。各中心の機能差、交通連携、サービス圏を検証する。",
+        "en-US": "Suitable for metropolitan regions, clustered cities and large-scale renewal; test functional differentiation, transport links and service catchments among centers."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -690,7 +742,9 @@
         "en-US": "A framework that organizes urban form along a continuum from natural and rural settings to dense urban cores, aligning form and intensity with context."
       },
       "caseNote": {
-        "zh-CN": "适合制定形态导则和城乡过渡区控制，不应机械套用固定分区。"
+        "zh-CN": "适合制定形态导则和城乡过渡区控制，不应机械套用固定分区。",
+        "ja-JP": "形態ガイドラインや都市・農村移行部の制御に適する。固定的な区分を機械的に適用しない。",
+        "en-US": "Useful for form guidelines and urban-rural transition control; avoid mechanically applying fixed transect zones."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -724,7 +778,9 @@
         "en-US": "An approach favoring small parcels, diverse ownership and varied buildings and uses to create an adaptable, incrementally evolving urban fabric."
       },
       "caseNote": {
-        "zh-CN": "适合旧城、小街区商业和渐进更新；需结合地价、产权和消防等实施条件。"
+        "zh-CN": "适合旧城、小街区商业和渐进更新；需结合地价、产权和消防等实施条件。",
+        "ja-JP": "旧市街、小規模商業街区、段階的更新に適する。地価、権利、消防など実施条件と合わせて検討する。",
+        "en-US": "Suitable for historic areas, small-block commerce and incremental renewal; consider land value, ownership and fire-safety constraints."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -758,7 +814,9 @@
         "en-US": "A connected urban fabric that offers multiple accessible routes through blocks, improving pedestrian and cycling choice, continuity and local permeability."
       },
       "caseNote": {
-        "zh-CN": "适合大地块拆分、园区开放和旧城织补；需兼顾安全、产权与运营边界。"
+        "zh-CN": "适合大地块拆分、园区开放和旧城织补；需兼顾安全、产权与运营边界。",
+        "ja-JP": "大街区の分割、閉鎖型園区の開放、旧市街の縫合に適する。安全、権利、運営境界と両立させる。",
+        "en-US": "Suitable for breaking up superblocks, opening campuses and stitching historic fabric; balance permeability with safety, property rights and management boundaries."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -792,7 +850,9 @@
         "en-US": "A block form with buildings arranged along the perimeter to define streets while enclosing a shared or semi-private interior courtyard."
       },
       "caseNote": {
-        "zh-CN": "适合中高密度居住和混合街区；需处理通风、日照、消防和首层出入口。"
+        "zh-CN": "适合中高密度居住和混合街区；需处理通风、日照、消防和首层出入口。",
+        "ja-JP": "中高密度の住宅・複合街区に適する。通風、日照、消防、地上階出入口を調整する。",
+        "en-US": "Suitable for medium- to high-density residential and mixed-use blocks; coordinate ventilation, daylight, fire access and ground-floor entrances."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -826,7 +886,9 @@
         "en-US": "A block strategy that opens internal routes and open spaces to the surrounding public network, reducing enclosure and increasing accessibility."
       },
       "caseNote": {
-        "zh-CN": "适合大型住区、校园和园区改造；开放程度应与管理、安全和产权机制协同。"
+        "zh-CN": "适合大型住区、校园和园区改造；开放程度应与管理、安全和产权机制协同。",
+        "ja-JP": "大規模住宅地、キャンパス、園区の改修に適する。開放度を管理、安全、権利の仕組みと整合させる。",
+        "en-US": "Suitable for large residential compounds, campuses and parks; calibrate openness with management, safety and ownership arrangements."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -859,7 +921,9 @@
         "en-US": "A spatial strategy that varies floor area ratio, building height and density gradually in response to accessibility, services, ecology and urban context."
       },
       "caseNote": {
-        "zh-CN": "适合站点周边、滨水和山地城市；应与市场、基础设施容量和景观控制结合。"
+        "zh-CN": "适合站点周边、滨水和山地城市；应与市场、基础设施容量和景观控制结合。",
+        "ja-JP": "駅周辺、ウォーターフロント、山地都市に適する。市場、インフラ容量、景観制御と組み合わせる。",
+        "en-US": "Suitable for station areas, waterfronts and hilly cities; coordinate the gradient with market conditions, infrastructure capacity and landscape controls."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -893,7 +957,9 @@
         "en-US": "A protected or designed line of sight from key viewpoints toward landmarks, landscapes, water or skyline, maintained through form and height controls."
       },
       "caseNote": {
-        "zh-CN": "适合历史城区、滨水和山水城市；需要明确观察点、目标物和控制范围。"
+        "zh-CN": "适合历史城区、滨水和山水城市；需要明确观察点、目标物和控制范围。",
+        "ja-JP": "歴史地区、ウォーターフロント、山水都市に適する。視点、対象物、制御範囲を明確に設定する。",
+        "en-US": "Suitable for historic districts, waterfronts and landscape cities; clearly define viewpoints, visual targets and control areas."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -926,7 +992,9 @@
         "en-US": "A skyline composition that uses distinct height layers for background fabric, primary masses, nodes and landmarks to create rhythm and hierarchy."
       },
       "caseNote": {
-        "zh-CN": "适合高层集中区和滨水门户；应同时校核视线、日照、风环境和城市地标体系。"
+        "zh-CN": "适合高层集中区和滨水门户；应同时校核视线、日照、风环境和城市地标体系。",
+        "ja-JP": "高層集積地区やウォーターフロントのゲートウェイに適する。眺望、日照、風環境、ランドマーク体系を同時に確認する。",
+        "en-US": "Suitable for high-rise clusters and waterfront gateways; evaluate views, daylight, wind conditions and the landmark system together."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -960,7 +1028,9 @@
         "en-US": "A strategy for reconnecting areas divided by infrastructure, water, walls or large parcels through crossings, openings, public space and programmatic links."
       },
       "caseNote": {
-        "zh-CN": "适合铁路沿线、快速路两侧和滨水更新；需把交通工程与城市空间同步处理。"
+        "zh-CN": "适合铁路沿线、快速路两侧和滨水更新；需把交通工程与城市空间同步处理。",
+        "ja-JP": "鉄道沿線、高速道路両側、ウォーターフロント再生に適し、交通工学と都市空間を同時に扱う。",
+        "en-US": "Suitable along railways, expressways and waterfront renewal; infrastructure engineering and urban space should be addressed together."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -994,7 +1064,9 @@
         "en-US": "A street redesign that removes or reallocates motor-vehicle lanes to walking, cycling, transit, landscaping or parking to improve safety and place quality."
       },
       "caseNote": {
-        "zh-CN": "适合过宽道路和交通量允许的更新路段；需以交通数据和安全评估为前提。"
+        "zh-CN": "适合过宽道路和交通量允许的更新路段；需以交通数据和安全评估为前提。",
+        "ja-JP": "過幅員道路や交通量に余裕のある更新区間に適する。交通データと安全評価を前提とする。",
+        "en-US": "Suitable for over-wide roads and corridors with manageable traffic volumes; base decisions on traffic data and safety assessment."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1028,7 +1100,9 @@
         "en-US": "A low-speed street concept that reduces formal separation and allows pedestrians, cyclists and vehicles to negotiate movement within a shared surface."
       },
       "caseNote": {
-        "zh-CN": "适合低速商业街、历史街区和社区道路；无障碍与视障者安全必须专项设计。"
+        "zh-CN": "适合低速商业街、历史街区和社区道路；无障碍与视障者安全必须专项设计。",
+        "ja-JP": "低速商業街、歴史地区、地域道路に適する。バリアフリーと視覚障害者の安全を専用に設計する。",
+        "en-US": "Suitable for low-speed shopping streets, historic districts and neighborhood roads; accessibility and visually impaired users' safety require dedicated design."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1062,7 +1136,9 @@
         "en-US": "A residential living street where social use and pedestrians take priority, with physical design measures that strongly constrain vehicle speed and behavior."
       },
       "caseNote": {
-        "zh-CN": "适合社区内部、学校周边和低速居住街；需配套清晰的交通组织和消防通行方案。"
+        "zh-CN": "适合社区内部、学校周边和低速居住街；需配套清晰的交通组织和消防通行方案。",
+        "ja-JP": "地域内部、学校周辺、低速住宅街に適する。明確な交通運用と消防通行計画を組み合わせる。",
+        "en-US": "Suitable for neighborhood interiors, school surroundings and low-speed residential streets; pair with clear traffic management and emergency-access plans."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1096,7 +1172,9 @@
         "en-US": "A small public-space intervention that converts curbside parking or residual street space into seating, planting and places to stay."
       },
       "caseNote": {
-        "zh-CN": "适合商业街、校园和社区中心；可作为战术都市主义的低成本试点工具。"
+        "zh-CN": "适合商业街、校园和社区中心；可作为战术都市主义的低成本试点工具。",
+        "ja-JP": "商業街、キャンパス、地域中心に適し、タクティカル・アーバニズムの低コスト実証としても使える。",
+        "en-US": "Suitable for commercial streets, campuses and neighborhood centers, and useful as a low-cost tactical-urbanism pilot."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1130,7 +1208,9 @@
         "en-US": "Designing buildings and public space around human perception, walking speed and body dimensions so environments feel legible, comfortable and engaging at close range."
       },
       "caseNote": {
-        "zh-CN": "适合首层界面、街道和公共空间审查；不能仅用建筑高度单一判断。"
+        "zh-CN": "适合首层界面、街道和公共空间审查；不能仅用建筑高度单一判断。",
+        "ja-JP": "地上階界面、街路、公共空間の評価に適する。建物高さだけで人間尺度を判断しない。",
+        "en-US": "Useful for reviewing ground-floor edges, streets and public spaces; human scale cannot be judged from building height alone."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1164,7 +1244,9 @@
         "en-US": "A connected network that treats walking routes as a primary spatial framework linking transit, services, open space and frequent destinations."
       },
       "caseNote": {
-        "zh-CN": "适合片区级更新和站城一体项目；需用过街、遮阴、坡度与无障碍连续性校核。"
+        "zh-CN": "适合片区级更新和站城一体项目；需用过街、遮阴、坡度与无障碍连续性校核。",
+        "ja-JP": "地区再生や駅まち一体事業に適する。横断、日陰、勾配、バリアフリーの連続性を確認する。",
+        "en-US": "Suitable for district renewal and station-city projects; verify crossings, shade, gradients and continuous accessibility."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1198,7 +1280,9 @@
         "en-US": "A hub that integrates bicycle parking, shared mobility, repair and pedestrian services with transit to support seamless active-mobility connections."
       },
       "caseNote": {
-        "zh-CN": "适合TOD和大型园区；核心是换乘便利而非单纯增加自行车停车数量。"
+        "zh-CN": "适合TOD和大型园区；核心是换乘便利而非单纯增加自行车停车数量。",
+        "ja-JP": "TODや大規模キャンパスに適する。自転車駐車量よりも乗換のしやすさを中心に設計する。",
+        "en-US": "Suitable for TOD and large campuses; the core objective is seamless interchange rather than simply adding bicycle parking."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1232,7 +1316,9 @@
         "en-US": "A boundary zone between distinct spatial conditions that supports entry, pause, observation and transition, such as porches, forecourts and semi-open entrances."
       },
       "caseNote": {
-        "zh-CN": "适合建筑首层与街道衔接；与“灰空间”相关，但更强调边界行为和进入过程。"
+        "zh-CN": "适合建筑首层与街道衔接；与“灰空间”相关，但更强调边界行为和进入过程。",
+        "ja-JP": "建築地上階と街路の接続に適する。グレー・スペースと関連するが、境界での行動と進入過程をより重視する。",
+        "en-US": "Suitable for building-street transitions; related to gray space but more focused on boundary behavior and the process of entering."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1266,7 +1352,9 @@
         "en-US": "An everyday social setting outside home and work that supports accessible, repeated and informal interaction and helps build community ties."
       },
       "caseNote": {
-        "zh-CN": "适合社区中心、咖啡店、图书馆和公共空间策划；重点在运营和使用，而不仅是物理形态。"
+        "zh-CN": "适合社区中心、咖啡店、图书馆和公共空间策划；重点在运营和使用，而不仅是物理形态。",
+        "ja-JP": "地域拠点、カフェ、図書館、公共空間の企画に適する。物理形態だけでなく運営と利用が重要。",
+        "en-US": "Suitable for community centers, cafés, libraries and public-space programming; operations and patterns of use are as important as form."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1300,7 +1388,9 @@
         "en-US": "The quality of an environment that enables people to form a clear mental image through recognizable paths, edges, districts, nodes and landmarks."
       },
       "caseNote": {
-        "zh-CN": "适合复杂街区、枢纽和历史城区；可与导视设计和空间序列评价结合。"
+        "zh-CN": "适合复杂街区、枢纽和历史城区；可与导视设计和空间序列评价结合。",
+        "ja-JP": "複雑な街区、交通結節点、歴史地区に適する。サイン計画や空間シークエンス評価と組み合わせられる。",
+        "en-US": "Suitable for complex districts, hubs and historic areas; can be combined with wayfinding and spatial-sequence evaluation."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1334,7 +1424,9 @@
         "en-US": "An approach that separates long-life support systems from changeable infill and fit-out so buildings can adapt economically over time."
       },
       "caseNote": {
-        "zh-CN": "适合住宅、办公和长期运营公共建筑；需在结构、机电和产权层面预留可变机制。"
+        "zh-CN": "适合住宅、办公和长期运营公共建筑；需在结构、机电和产权层面预留可变机制。",
+        "ja-JP": "住宅、オフィス、長期運用する公共建築に適する。構造、設備、権利面で変更可能性を確保する。",
+        "en-US": "Suitable for housing, offices and long-life public buildings; provide change capacity in structure, services and ownership arrangements."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1368,7 +1460,9 @@
         "en-US": "A building system that separates the durable structural skeleton from replaceable interior partitions, services and finishes to enable long-term change."
       },
       "caseNote": {
-        "zh-CN": "适合住宅和存量改造；与开放建筑高度相关，可作为其具体技术路径。"
+        "zh-CN": "适合住宅和存量改造；与开放建筑高度相关，可作为其具体技术路径。",
+        "ja-JP": "住宅や既存建築改修に適し、オープンビルディングの具体的な技術経路として利用できる。",
+        "en-US": "Suitable for housing and retrofit projects; it can serve as a specific technical pathway within open-building strategies."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1401,7 +1495,9 @@
         "en-US": "A floor-plan strategy using regular grids, movable partitions and adaptable rooms to support changing occupancies and uses over time."
       },
       "caseNote": {
-        "zh-CN": "适合办公、住宅、学校等需求变化频繁的建筑；弹性应落实到结构与机电条件。"
+        "zh-CN": "适合办公、住宅、学校等需求变化频繁的建筑；弹性应落实到结构与机电条件。",
+        "ja-JP": "オフィス、住宅、学校など需要変化の大きい建築に適する。柔軟性を構造・設備条件にまで落とし込む。",
+        "en-US": "Suitable for offices, housing and schools with changing needs; flexibility should be supported by structural and building-service systems."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1434,7 +1530,9 @@
         "en-US": "A design principle that avoids over-specialization and uses dimensional generosity and neutral space to accommodate unforeseen future uses."
       },
       "caseNote": {
-        "zh-CN": "适合长期公共建筑、园区厂房和可持续更新项目；重点是适度冗余而非低效浪费。"
+        "zh-CN": "适合长期公共建筑、园区厂房和可持续更新项目；重点是适度冗余而非低效浪费。",
+        "ja-JP": "長寿命の公共建築、工場、持続的更新に適する。適度な余裕を確保し、非効率な浪費とは区別する。",
+        "en-US": "Suitable for long-life public buildings, industrial space and sustainable renewal; provide useful tolerance rather than inefficient excess."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1467,7 +1565,9 @@
         "en-US": "Design that reduces heating, cooling and lighting demand through orientation, form, envelope, shading, daylight and natural ventilation before relying on active systems."
       },
       "caseNote": {
-        "zh-CN": "适合各类建筑前期方案比较；必须结合当地气候和使用时段判断。"
+        "zh-CN": "适合各类建筑前期方案比较；必须结合当地气候和使用时段判断。",
+        "ja-JP": "各種建築の初期案比較に適する。地域気候と実際の利用時間に基づいて判断する。",
+        "en-US": "Useful in early option comparison for many building types; assess strategies against local climate and real occupancy schedules."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1501,7 +1601,9 @@
         "en-US": "An approach that integrates direct and indirect experiences of nature—such as vegetation, water, daylight and natural materials—to support wellbeing and attachment."
       },
       "caseNote": {
-        "zh-CN": "适合办公、医疗、教育和居住空间；避免把概念简化为“多摆植物”。"
+        "zh-CN": "适合办公、医疗、教育和居住空间；避免把概念简化为“多摆植物”。",
+        "ja-JP": "オフィス、医療、教育、住宅に適する。「植物を増やす」だけに単純化しない。",
+        "en-US": "Suitable for offices, healthcare, education and housing; avoid reducing biophilic design to simply adding more plants."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1535,7 +1637,9 @@
         "en-US": "Design that responds directly to local solar, wind, temperature, humidity and rainfall conditions through orientation, massing, openings, shading and materials."
       },
       "caseNote": {
-        "zh-CN": "可用于建筑与街区双尺度；应通过气象数据而非经验印象支撑。"
+        "zh-CN": "可用于建筑与街区双尺度；应通过气象数据而非经验印象支撑。",
+        "ja-JP": "建築・街区の両スケールに使える。経験的印象ではなく気象データで根拠を示す。",
+        "en-US": "Applicable at building and district scales; support decisions with climate data rather than intuition alone."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1569,7 +1673,9 @@
         "en-US": "The deliberate shaping of enclosure, orientation, shade, planting, water and openings to create comfortable thermal and wind conditions within a courtyard."
       },
       "caseNote": {
-        "zh-CN": "适合高密度住宅、校园和公共建筑；需要注意夏季散热与冬季日照的季节冲突。"
+        "zh-CN": "适合高密度住宅、校园和公共建筑；需要注意夏季散热与冬季日照的季节冲突。",
+        "ja-JP": "高密度住宅、キャンパス、公共建築に適する。夏の放熱と冬の日射取得の季節的トレードオフに注意する。",
+        "en-US": "Suitable for dense housing, campuses and public buildings; manage seasonal trade-offs between summer heat release and winter solar access."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1603,7 +1709,9 @@
         "en-US": "A ground-floor strategy that uses passages, open entries and visual connections to extend public movement and activity through or beneath buildings."
       },
       "caseNote": {
-        "zh-CN": "适合大型公共建筑、商业综合体和园区；需平衡公共通行与运营安全。"
+        "zh-CN": "适合大型公共建筑、商业综合体和园区；需平衡公共通行与运营安全。",
+        "ja-JP": "大型公共建築、複合商業施設、園区に適する。公共通行と運営上のセキュリティを両立させる。",
+        "en-US": "Suitable for large public buildings, mixed-use complexes and campuses; balance public passage with operational security."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1637,7 +1745,9 @@
         "en-US": "The vertical stacking of different uses within one building, coordinated through shared cores, public levels and servicing systems."
       },
       "caseNote": {
-        "zh-CN": "适合TOD和高密度综合体；需重点审查垂直交通、消防分区、后勤与时段冲突。"
+        "zh-CN": "适合TOD和高密度综合体；需重点审查垂直交通、消防分区、后勤与时段冲突。",
+        "ja-JP": "TODや高密度複合施設に適する。垂直動線、消防区画、物流、時間帯の競合を重点確認する。",
+        "en-US": "Suitable for TOD and dense mixed-use buildings; closely review vertical circulation, fire separation, servicing and time-of-day conflicts."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1671,7 +1781,9 @@
         "en-US": "Small habitat patches placed between fragmented ecosystems to provide resting, feeding or breeding points and support species movement across gaps."
       },
       "caseNote": {
-        "zh-CN": "适合高密度城区和河网城市；应按目标物种和实际迁移距离确定尺度与间距。"
+        "zh-CN": "适合高密度城区和河网城市；应按目标物种和实际迁移距离确定尺度与间距。",
+        "ja-JP": "高密度市街地や水網都市に適する。対象種と実際の移動距離に基づいて規模と間隔を設定する。",
+        "en-US": "Suitable for dense urban areas and water-network cities; size and space stepping stones according to target species and realistic movement distances."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1705,7 +1817,9 @@
         "en-US": "A vegetated zone along rivers, channels or lakes that filters runoff, stabilizes banks, provides habitat and buffers development impacts."
       },
       "caseNote": {
-        "zh-CN": "适合滨水更新与河道生态修复；宽度需结合洪水、生态目标和公共可达性统筹。"
+        "zh-CN": "适合滨水更新与河道生态修复；宽度需结合洪水、生态目标和公共可达性统筹。",
+        "ja-JP": "ウォーターフロント再生や河川生態修復に適する。幅員は洪水、生態目標、公共アクセスを統合して決める。",
+        "en-US": "Suitable for waterfront renewal and river restoration; determine buffer width by integrating flood, ecological and public-access objectives."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1739,7 +1853,9 @@
         "en-US": "The degree to which landscape structure enables organisms to move between habitat patches for feeding, breeding, dispersal and genetic exchange."
       },
       "caseNote": {
-        "zh-CN": "适合跨尺度生态网络评价；需结合具体物种而非只看绿地几何连通。"
+        "zh-CN": "适合跨尺度生态网络评价；需结合具体物种而非只看绿地几何连通。",
+        "ja-JP": "複数スケールの生態ネットワーク評価に適する。緑地の幾何学的接続だけでなく対象種に基づいて評価する。",
+        "en-US": "Useful for multi-scale ecological-network assessment; evaluate connectivity for specific species rather than geometry alone."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1773,7 +1889,9 @@
         "en-US": "A set of urban design measures—shade, evapotranspiration, cool materials, water and ventilation—used to reduce elevated urban surface and air temperatures."
       },
       "caseNote": {
-        "zh-CN": "适合广场、街道和高密度片区；应结合热环境模拟和日夜差异。"
+        "zh-CN": "适合广场、街道和高密度片区；应结合热环境模拟和日夜差异。",
+        "ja-JP": "広場、街路、高密度地区に適する。熱環境シミュレーションと昼夜差を考慮する。",
+        "en-US": "Suitable for plazas, streets and dense districts; use thermal-environment analysis and account for day-night differences."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1807,7 +1925,9 @@
         "en-US": "Public space designed for everyday use while safely accommodating temporary inundation, detention or conveyance during extreme rainfall or flooding."
       },
       "caseNote": {
-        "zh-CN": "适合滨水低地和易涝片区；必须明确淹没频率、退水时间、材料耐久与安全管理。"
+        "zh-CN": "适合滨水低地和易涝片区；必须明确淹没频率、退水时间、材料耐久与安全管理。",
+        "ja-JP": "ウォーターフロント低地や浸水地区に適する。浸水頻度、排水時間、材料耐久性、安全管理を明確にする。",
+        "en-US": "Suitable for low-lying waterfronts and flood-prone areas; define inundation frequency, drainage time, material durability and safety management."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1841,7 +1961,9 @@
         "en-US": "An integrated approach that treats water supply, stormwater, wastewater, ecology and urban form as one system serving environmental and public-space goals."
       },
       "caseNote": {
-        "zh-CN": "适合片区和城市尺度；与海绵城市高度相关，但可作为更广义水循环设计框架。"
+        "zh-CN": "适合片区和城市尺度；与海绵城市高度相关，但可作为更广义水循环设计框架。",
+        "ja-JP": "地区・都市スケールに適する。スポンジシティと近いが、より広い都市水循環の統合枠組みとして使える。",
+        "en-US": "Suitable at district and city scales; closely related to Sponge City but usable as a broader integrated urban-water framework."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1875,7 +1997,9 @@
         "en-US": "An approach that restores ecological processes and more self-organizing habitat structures within cities by reducing intensive maintenance where appropriate."
       },
       "caseNote": {
-        "zh-CN": "适合棕地、河岸和大型公园边缘；应管理公众安全、入侵种和可接受的“自然感”。"
+        "zh-CN": "适合棕地、河岸和大型公园边缘；应管理公众安全、入侵种和可接受的“自然感”。",
+        "ja-JP": "ブラウンフィールド、河岸、大規模公園周縁に適する。安全、外来種、利用者が受容できる自然度を管理する。",
+        "en-US": "Suitable for brownfields, river edges and large-park margins; manage public safety, invasive species and acceptable levels of wildness."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1909,7 +2033,9 @@
         "en-US": "A systems view of cities as flows of energy, water and materials, used to identify opportunities for efficiency, recovery, reuse and emissions reduction."
       },
       "caseNote": {
-        "zh-CN": "适合园区、城市基础设施和低碳策略；强调系统流而非单一设施节能。"
+        "zh-CN": "适合园区、城市基础设施和低碳策略；强调系统流而非单一设施节能。",
+        "ja-JP": "園区、都市インフラ、低炭素戦略に適する。単一設備の省エネではなくシステム全体のフローを重視する。",
+        "en-US": "Suitable for districts, urban infrastructure and low-carbon strategies; focus on system-wide flows rather than isolated equipment efficiency."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1943,7 +2069,9 @@
         "en-US": "A city model that extends the life of buildings, materials, water, energy and products through sharing, repair, reuse, remanufacturing and recovery."
       },
       "caseNote": {
-        "zh-CN": "适合产业园、更新区和基础设施规划；应对应具体物质流和运营机制。"
+        "zh-CN": "适合产业园、更新区和基础设施规划；应对应具体物质流和运营机制。",
+        "ja-JP": "産業地区、再生地区、インフラ計画に適する。具体的な物質フローと運営の仕組みに対応させる。",
+        "en-US": "Suitable for industrial parks, renewal districts and infrastructure planning; link the concept to specific material flows and operating mechanisms."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -1977,7 +2105,9 @@
         "en-US": "A landscape approach that designs for ecological change over time, guiding succession through pioneer communities, phased management and desired habitat trajectories."
       },
       "caseNote": {
-        "zh-CN": "适合棕地、生态公园和低维护景观；需要明确时间尺度和管理介入强度。"
+        "zh-CN": "适合棕地、生态公园和低维护景观；需要明确时间尺度和管理介入强度。",
+        "ja-JP": "ブラウンフィールド、生態公園、低管理型景観に適する。時間尺度と管理介入の強度を明確にする。",
+        "en-US": "Suitable for brownfields, ecological parks and low-maintenance landscapes; define the time horizon and intensity of management interventions."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -2011,7 +2141,9 @@
         "en-US": "The remediation and redevelopment of previously developed, often industrial land through risk management, infrastructure renewal and new uses."
       },
       "caseNote": {
-        "zh-CN": "适合老工业区和港区；污染治理成本与分期开发是核心前置条件。"
+        "zh-CN": "适合老工业区和港区；污染治理成本与分期开发是核心前置条件。",
+        "ja-JP": "旧工業地区や港湾地区に適する。汚染対策費と段階開発が重要な前提条件となる。",
+        "en-US": "Suitable for former industrial and port areas; remediation cost and phased redevelopment are key preconditions."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -2045,7 +2177,9 @@
         "en-US": "The reuse of industrial buildings, structures and traces with heritage value by integrating new programs and public space while retaining historical identity."
       },
       "caseNote": {
-        "zh-CN": "适合老厂、仓库和基础设施遗产；需区分真正的价值保留与表皮式“工业风”。"
+        "zh-CN": "适合老厂、仓库和基础设施遗产；需区分真正的价值保留与表皮式“工业风”。",
+        "ja-JP": "旧工場、倉庫、インフラ遺産に適する。価値ある保存と表層的な「工業風」表現を区別する。",
+        "en-US": "Suitable for factories, warehouses and infrastructure heritage; distinguish meaningful conservation from superficial 'industrial-style' decoration."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -2079,7 +2213,9 @@
         "en-US": "Temporary, low-cost use of vacant land or buildings during the period before permanent redevelopment, often for cultural, commercial or community activities."
       },
       "caseNote": {
-        "zh-CN": "适合分期更新和闲置厂房；需明确期限、责任、消防和退出机制。"
+        "zh-CN": "适合分期更新和闲置厂房；需明确期限、责任、消防和退出机制。",
+        "ja-JP": "段階再生や遊休工場に適する。期間、責任、消防、撤退条件を明確にする。",
+        "en-US": "Suitable for phased renewal and vacant industrial buildings; define duration, responsibility, fire safety and exit arrangements."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -2113,7 +2249,9 @@
         "en-US": "A dense, accessible district where firms, research institutions, universities, startup support and public spaces cluster to encourage knowledge exchange and innovation."
       },
       "caseNote": {
-        "zh-CN": "适合产业转型和高校周边更新；空间设计需与产业组织和运营平台同步。"
+        "zh-CN": "适合产业转型和高校周边更新；空间设计需与产业组织和运营平台同步。",
+        "ja-JP": "産業転換や大学周辺再生に適する。空間設計を産業組織と運営プラットフォームに同期させる。",
+        "en-US": "Suitable for industrial transition and university-area renewal; spatial design should be coordinated with industry organization and operating platforms."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -2147,7 +2285,9 @@
         "en-US": "An urban model that retains and reintegrates manufacturing, repair, logistics, craft and digital production alongside housing, commerce and civic life."
       },
       "caseNote": {
-        "zh-CN": "适合产业园更新和职住平衡讨论；需重视噪声、物流、环保和地价排挤问题。"
+        "zh-CN": "适合产业园更新和职住平衡讨论；需重视噪声、物流、环保和地价排挤问题。",
+        "ja-JP": "産業地区再生や職住近接の議論に適する。騒音、物流、環境負荷、地価による排除に注意する。",
+        "en-US": "Suitable for industrial-area renewal and jobs-housing balance; address noise, logistics, environmental impacts and displacement from rising land values."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -2181,7 +2321,9 @@
         "en-US": "A development strategy that breaks large projects into workable phases that can operate independently and adapt to feedback, funding and changing demand."
       },
       "caseNote": {
-        "zh-CN": "适合高不确定性更新项目；与触媒式更新相关，但更强调项目实施和投资节奏。"
+        "zh-CN": "适合高不确定性更新项目；与触媒式更新相关，但更强调项目实施和投资节奏。",
+        "ja-JP": "不確実性の高い再生事業に適する。都市触媒型更新と関連するが、実施と投資の時間軸をより重視する。",
+        "en-US": "Suitable for high-uncertainty renewal projects; related to catalytic renewal but more focused on implementation and investment phasing."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -2215,7 +2357,9 @@
         "en-US": "A process that directly involves users and stakeholders in identifying problems, generating options, evaluating proposals and shaping implementation decisions."
       },
       "caseNote": {
-        "zh-CN": "适合社区、公园和公共服务项目；应记录参与对象、决策权和意见如何进入方案。"
+        "zh-CN": "适合社区、公园和公共服务项目；应记录参与对象、决策权和意见如何进入方案。",
+        "ja-JP": "地域、公園、公共サービス事業に適する。参加者、意思決定権、意見が案へ反映された過程を記録する。",
+        "en-US": "Suitable for communities, parks and public-service projects; document who participated, what decision power they held and how input changed the design."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -2249,7 +2393,9 @@
         "en-US": "A collaborative design process in which designers, users, operators and other stakeholders jointly generate and iterate solutions rather than merely provide feedback."
       },
       "caseNote": {
-        "zh-CN": "与参与式设计接近，但更强调共同生成方案；建议数据库中建立近义关联而不合并。"
+        "zh-CN": "与参与式设计接近，但更强调共同生成方案；建议数据库中建立近义关联而不合并。",
+        "ja-JP": "参加型デザインに近いが、案を共同生成する点をより重視する。近接概念として関連付け、統合しない。",
+        "en-US": "Close to participatory design but more focused on jointly generating proposals; keep it as a related concept rather than merging the two."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -2283,7 +2429,9 @@
         "en-US": "Design that responds to older adults' mobility, sensory, resting, social and care needs through accessible routes, seating, shade, lighting and nearby services."
       },
       "caseNote": {
-        "zh-CN": "适合社区和公共空间更新；不应只等同于无障碍，还包括社会参与和服务可达性。"
+        "zh-CN": "适合社区和公共空间更新；不应只等同于无障碍，还包括社会参与和服务可达性。",
+        "ja-JP": "地域・公共空間再生に適する。バリアフリーだけでなく、社会参加とサービスへのアクセスも含める。",
+        "en-US": "Suitable for community and public-space renewal; age-friendly design includes social participation and service access, not accessibility alone."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
@@ -2317,13 +2465,2485 @@
         "en-US": "Urban design that supports children's independent mobility, play, learning and safety through low-risk streets and connected, observable, exploratory public spaces."
       },
       "caseNote": {
-        "zh-CN": "适合学校周边、社区和公园；应把儿童视角纳入参与和空间评价。"
+        "zh-CN": "适合学校周边、社区和公园；应把儿童视角纳入参与和空间评价。",
+        "ja-JP": "学校周辺、地域、公園に適する。子どもの視点を参加プロセスと空間評価へ組み込む。",
+        "en-US": "Suitable for school surroundings, neighborhoods and parks; include children's perspectives in participation and spatial evaluation."
       },
       "sourceIds": [
         "UPT-EDITORIAL"
       ],
       "reviewStatus": "reviewed",
       "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 69,
+      "stableId": "concept-collage-city",
+      "title": {
+        "zh-CN": "拼贴城市",
+        "ja-JP": "コラージュ・シティ",
+        "en-US": "Collage City"
+      },
+      "aliases": [],
+      "category": "城市结构",
+      "projectTypes": [
+        "城市设计",
+        "历史街区更新",
+        "城市更新"
+      ],
+      "tags": [
+        "空间结构",
+        "存量更新",
+        "场所认知"
+      ],
+      "definition": {
+        "zh-CN": "通过并置、叠合和保留不同时期、不同类型的城市片段，接受城市的多样性与不连续性，以局部关系和历史层积替代单一、总体化的秩序。",
+        "ja-JP": "異なる時代・類型の都市断片を並置・重層・保存し、都市の多様性と不連続性を受け入れ、単一の総体秩序ではなく局所的関係と歴史的蓄積から都市を構成する考え方。",
+        "en-US": "An approach that juxtaposes, layers and retains urban fragments from different periods and types, accepting diversity and discontinuity in place of a single totalizing order."
+      },
+      "caseNote": {
+        "zh-CN": "案例：罗马历史城区与《Collage City》的城市阅读。Rowe 与 Koetter 以长期层积的城市说明多种形态与历史片段可以并存。",
+        "ja-JP": "事例：ローマ歴史地区と『Collage City』の都市読解。Rowe と Koetter は長期に重層した都市を、多様な形態と歴史断片が共存できる参照として論じた。",
+        "en-US": "Case: the historic fabric of Rome as read in Collage City. Rowe and Koetter use layered cities to show how diverse forms and historical fragments can coexist."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 70,
+      "stableId": "concept-genius-loci",
+      "title": {
+        "zh-CN": "场所精神",
+        "ja-JP": "ゲニウス・ロキ（場所の精神）",
+        "en-US": "Genius Loci / Spirit of Place"
+      },
+      "aliases": [],
+      "category": "街道与公共空间",
+      "projectTypes": [
+        "城市设计",
+        "建筑设计",
+        "公共空间",
+        "历史环境"
+      ],
+      "tags": [
+        "场所认知",
+        "公共空间",
+        "社区生活"
+      ],
+      "definition": {
+        "zh-CN": "把地点的自然条件、空间形态、文化记忆、日常活动和感知氛围视为共同构成场所身份的整体，并以设计延续或强化这种可识别的地方特质。",
+        "ja-JP": "自然条件、空間形態、文化的記憶、日常活動、知覚的雰囲気を場所のアイデンティティを構成する一体として捉え、設計によってその固有性を継承・強化する考え方。",
+        "en-US": "A concept that treats natural conditions, spatial form, cultural memory, everyday activity and atmosphere as a combined place identity to be sustained or strengthened through design."
+      },
+      "caseNote": {
+        "zh-CN": "案例：威尼斯圣马可广场。建筑界面、水岸、光线、活动与历史记忆共同形成高度可识别的场所特征。",
+        "ja-JP": "事例：ヴェネツィアのサン・マルコ広場。建築界面、水辺、光、活動、歴史的記憶が一体となって強い場所性を形成している。",
+        "en-US": "Case: Piazza San Marco, Venice, where architecture, waterfront edges, light, activity and historical memory combine into a highly recognizable sense of place."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 71,
+      "stableId": "concept-organic-urban-renewal",
+      "title": {
+        "zh-CN": "城市有机更新",
+        "ja-JP": "都市の有機的更新",
+        "en-US": "Organic Urban Renewal"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "旧城改造",
+        "历史街区",
+        "社区更新",
+        "片区改造"
+      ],
+      "tags": [
+        "存量更新",
+        "渐进实施",
+        "社区生活"
+      ],
+      "definition": {
+        "zh-CN": "在尊重既有城市肌理、社会网络和生活连续性的前提下，以小尺度、分阶段、可调整的方式逐步改善空间与功能，避免一次性大拆大建。",
+        "ja-JP": "既存の都市組織、社会関係、生活の連続性を尊重し、小規模・段階的・調整可能な介入で空間と機能を改善し、一括的な大規模撤去・再建を避ける更新方法。",
+        "en-US": "A renewal approach that respects existing urban fabric, social networks and continuity of daily life while improving space and function through small, phased and adjustable interventions."
+      },
+      "caseNote": {
+        "zh-CN": "案例：北京菊儿胡同更新。吴良镛团队在保留胡同尺度和邻里结构的基础上，以渐进改造改善居住条件。",
+        "ja-JP": "事例：北京・菊児胡同の更新。胡同の尺度と近隣構造を保ちながら段階的に居住環境を改善した代表例。",
+        "en-US": "Case: Ju'er Hutong, Beijing, where incremental housing improvement retained hutong scale and neighborhood structure rather than replacing the district wholesale."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 72,
+      "stableId": "concept-park-city",
+      "title": {
+        "zh-CN": "公园城市",
+        "ja-JP": "パークシティ",
+        "en-US": "Park City"
+      },
+      "aliases": [],
+      "category": "生态与韧性",
+      "projectTypes": [
+        "总体规划",
+        "城市设计",
+        "公园体系",
+        "新区规划"
+      ],
+      "tags": [
+        "自然生态",
+        "公共空间",
+        "蓝绿水系"
+      ],
+      "definition": {
+        "zh-CN": "将生态本底、公园绿地、开放空间和日常公共生活作为城市空间组织的基础，使生态价值、公共服务、慢行网络和城市发展在全域尺度协同。",
+        "ja-JP": "生態基盤、公園・緑地、オープンスペース、日常の公共生活を都市構造の基礎とし、生態価値、公共サービス、歩行・自転車ネットワーク、都市開発を全域で統合する考え方。",
+        "en-US": "A citywide approach that uses ecological structure, parks, open space and public life as an organizing framework integrating ecology, services, active mobility and urban development."
+      },
+      "caseNote": {
+        "zh-CN": "案例：成都公园城市示范区。以全域公园体系、绿道网络和公园社区推动公园与城市功能融合。",
+        "ja-JP": "事例：成都の公園都市示範区。広域公園体系、グリーンウェイ、公園コミュニティを通じて都市機能と緑地を統合している。",
+        "en-US": "Case: Chengdu Park City Demonstration Area, which links a citywide park system, greenways and park communities with everyday urban functions."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 73,
+      "stableId": "concept-vertical-industrial-development",
+      "title": {
+        "zh-CN": "工业上楼",
+        "ja-JP": "多層型都市工業",
+        "en-US": "Vertical Industrial Development"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "产业园区",
+        "工业用地更新",
+        "城市设计",
+        "产业规划"
+      ],
+      "tags": [
+        "产业创新",
+        "空间结构",
+        "弹性与适应"
+      ],
+      "definition": {
+        "zh-CN": "在满足生产荷载、物流组织、层高、消防、振动与设备条件的前提下，将制造、研发和配套功能垂直叠置于多层或高层工业建筑中，提高工业用地的集约利用效率。",
+        "ja-JP": "床荷重、物流、階高、防火、振動、設備条件を満たした上で、製造・研究開発・支援機能を多層工業建築に垂直積層し、工業用地を集約利用する方法。",
+        "en-US": "The vertical stacking of manufacturing, R&D and support functions in multi-storey industrial buildings while meeting loading, logistics, height, fire, vibration and servicing requirements."
+      },
+      "caseNote": {
+        "zh-CN": "案例：香港观塘、九龙湾的多层工业大厦。高密度环境中生产、仓储和服务功能长期形成垂直组织。",
+        "ja-JP": "事例：香港・観塘および九龍湾の多層工業ビル。高密度都市で生産、倉庫、サービスが垂直に組織されてきた。",
+        "en-US": "Case: multi-storey industrial buildings in Kwun Tong and Kowloon Bay, Hong Kong, where production, storage and services operate vertically in a dense urban context."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 74,
+      "stableId": "concept-complex-adaptive-city",
+      "title": {
+        "zh-CN": "复杂适应系统城市",
+        "ja-JP": "複雑適応系としての都市",
+        "en-US": "City as a Complex Adaptive System"
+      },
+      "aliases": [],
+      "category": "城市结构",
+      "projectTypes": [
+        "总体规划",
+        "城市研究",
+        "城市设计",
+        "交通与土地使用分析"
+      ],
+      "tags": [
+        "空间结构",
+        "连通网络",
+        "弹性与适应"
+      ],
+      "definition": {
+        "zh-CN": "把城市理解为由大量相互作用的主体、网络和规则构成的非线性系统，城市形态与功能通过反馈、适应、路径依赖和涌现持续演化，而非完全由单一中心控制。",
+        "ja-JP": "都市を多数の主体、ネットワーク、規則が相互作用する非線形システムと捉え、形態と機能がフィードバック、適応、経路依存、創発によって進化すると考える。",
+        "en-US": "A view of the city as a nonlinear system of interacting actors, networks and rules whose form and function evolve through feedback, adaptation, path dependence and emergence."
+      },
+      "caseNote": {
+        "zh-CN": "案例：Michael Batty 等对伦敦道路、人口、土地使用与活动网络的复杂系统研究，用于解释局部互动如何形成宏观城市结构。",
+        "ja-JP": "事例：Michael Batty らによるロンドンの道路、人口、土地利用、活動ネットワーク研究。局所的相互作用から都市全体の構造が生じる過程を分析する。",
+        "en-US": "Case: Michael Batty's complexity research on London's streets, population, land use and activity networks, illustrating how local interactions generate large-scale urban patterns."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 75,
+      "stableId": "concept-playable-city",
+      "title": {
+        "zh-CN": "可玩城市",
+        "ja-JP": "プレイアブル・シティ",
+        "en-US": "Playable City"
+      },
+      "aliases": [],
+      "category": "街道与公共空间",
+      "projectTypes": [
+        "公共空间",
+        "城市更新",
+        "文化创意",
+        "社区营造"
+      ],
+      "tags": [
+        "公共空间",
+        "社区生活",
+        "公众协作"
+      ],
+      "definition": {
+        "zh-CN": "通过互动装置、游戏机制、数字媒介和可参与的空间事件，使城市公共空间成为可探索、可回应、可共同创造的日常场所，而非仅承担通行或观赏功能。",
+        "ja-JP": "インタラクティブ装置、遊びの仕組み、デジタルメディア、参加型イベントによって、公共空間を移動・鑑賞だけでなく探索、応答、共創できる日常の場にする考え方。",
+        "en-US": "An approach that uses interactive installations, play mechanics, digital media and participatory events to make public space explorable, responsive and co-created."
+      },
+      "caseNote": {
+        "zh-CN": "案例：英国布里斯托 Playable City 与 Hello Lamp Post，通过城市设施与市民互动拓展公共空间体验。",
+        "ja-JP": "事例：英国ブリストルの Playable City と Hello Lamp Post。都市設備との対話を通じて公共空間の体験を拡張した。",
+        "en-US": "Case: Bristol's Playable City program and Hello Lamp Post, which invited residents to interact with everyday urban infrastructure."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 76,
+      "stableId": "concept-open-source-urbanism",
+      "title": {
+        "zh-CN": "开源城市主义",
+        "ja-JP": "オープンソース・アーバニズム",
+        "en-US": "Open-Source Urbanism"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "社区营造",
+        "数字城市",
+        "城市更新",
+        "公众参与"
+      ],
+      "tags": [
+        "公众协作",
+        "产业创新",
+        "渐进实施"
+      ],
+      "definition": {
+        "zh-CN": "将开放数据、开源工具、共享设计知识和可复制原型用于城市建设，让政府、专业者、社区和技术社群能够共同修改、验证和传播城市解决方案。",
+        "ja-JP": "オープンデータ、オープンソースのツール、共有設計知識、再利用可能なプロトタイプを用い、行政、専門家、地域、技術コミュニティが都市解決策を共同で改良・検証・共有する。",
+        "en-US": "An urban practice based on open data, open-source tools, shared design knowledge and reusable prototypes that can be modified, tested and distributed collaboratively."
+      },
+      "caseNote": {
+        "zh-CN": "案例：巴塞罗那 Fab City / Smart Citizen 生态，通过 Fab Lab、开放硬件和城市传感项目形成可共享的城市创新工具链。",
+        "ja-JP": "事例：バルセロナの Fab City / Smart Citizen。Fab Lab、オープンハードウェア、都市センシングを共有可能なイノベーション基盤として展開した。",
+        "en-US": "Case: Barcelona's Fab City / Smart Citizen ecosystem, combining Fab Labs, open hardware and urban sensing into a reusable civic innovation toolkit."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 77,
+      "stableId": "concept-time-geography",
+      "title": {
+        "zh-CN": "时间地理与时空棱镜",
+        "ja-JP": "時間地理学と時空間プリズム",
+        "en-US": "Time Geography & Space-Time Prism"
+      },
+      "aliases": [],
+      "category": "城市结构",
+      "projectTypes": [
+        "交通规划",
+        "生活圈规划",
+        "公共服务设施",
+        "可达性分析"
+      ],
+      "tags": [
+        "连通网络",
+        "社区生活",
+        "场所认知"
+      ],
+      "definition": {
+        "zh-CN": "以个体在时间预算、交通速度、固定活动和空间距离约束下能够到达的活动范围分析城市可达性；“时空棱镜”用于表达某段时间内可实现的空间机会集合。",
+        "ja-JP": "時間予算、移動速度、固定活動、距離制約の下で個人が到達可能な活動範囲を分析する枠組み。時空間プリズムは一定時間内に実現可能な機会領域を表す。",
+        "en-US": "A framework for analyzing accessibility under time budgets, travel speeds, fixed activities and spatial constraints; the space-time prism represents reachable opportunities within a time window."
+      },
+      "caseNote": {
+        "zh-CN": "案例：波特兰 20 分钟社区的时间可达性分析，以步行和骑行时间衡量日常服务机会。",
+        "ja-JP": "事例：ポートランドの20分生活圏。徒歩・自転車の所要時間で日常サービスへの到達可能性を評価する。",
+        "en-US": "Case: Portland's 20-Minute Neighborhoods, where walking and cycling travel times are used to assess access to everyday services."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 78,
+      "stableId": "concept-urban-memory",
+      "title": {
+        "zh-CN": "城市记忆",
+        "ja-JP": "都市の記憶",
+        "en-US": "Urban Memory"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "历史街区",
+        "工业遗产",
+        "城市更新",
+        "公共空间"
+      ],
+      "tags": [
+        "场所认知",
+        "存量更新",
+        "社区生活"
+      ],
+      "definition": {
+        "zh-CN": "把建筑、街巷、工业遗存、地名、活动和集体经验视为城市时间连续性的载体，通过保留、再解释和再利用使历史痕迹继续参与当代城市生活。",
+        "ja-JP": "建築、街路、産業遺産、地名、活動、集合的経験を都市の時間的連続性を担う媒体と捉え、保存・再解釈・再利用によって歴史の痕跡を現在の生活へ継承する。",
+        "en-US": "A concept that treats buildings, streets, industrial remains, names, activities and collective experience as carriers of urban continuity, retaining and reinterpreting them within contemporary life."
+      },
+      "caseNote": {
+        "zh-CN": "案例：德国杜伊斯堡北景观公园。高炉、煤仓等工业遗存被保留并嵌入新的公共活动，使工业历史继续被体验。",
+        "ja-JP": "事例：ドイツ・デュイスブルク・ノルド景観公園。高炉や貯蔵施設を残して公共利用を重ね、産業の記憶を現代の体験へつないだ。",
+        "en-US": "Case: Landschaftspark Duisburg-Nord, where blast furnaces and industrial structures were retained and integrated with new public uses so industrial memory remains legible."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 79,
+      "stableId": "concept-spatial-narrative",
+      "title": {
+        "zh-CN": "空间叙事",
+        "ja-JP": "空間ナラティブ",
+        "en-US": "Spatial Narrative"
+      },
+      "aliases": [],
+      "category": "街道与公共空间",
+      "projectTypes": [
+        "城市设计",
+        "建筑设计",
+        "历史更新",
+        "文旅空间"
+      ],
+      "tags": [
+        "场所认知",
+        "公共空间",
+        "存量更新"
+      ],
+      "definition": {
+        "zh-CN": "通过路径、序列、视线、节点、材料、遗迹和功能事件的组织，让使用者在移动中逐步读取地点的时间、主题或故事，使空间体验具有结构化的叙事关系。",
+        "ja-JP": "動線、シークエンス、視線、節点、素材、痕跡、出来事を組み立て、移動しながら場所の時間・主題・物語を段階的に読み取れる空間体験をつくる。",
+        "en-US": "The organization of routes, sequences, views, nodes, materials, traces and events so that users progressively read a site's time, themes or stories through movement."
+      },
+      "caseNote": {
+        "zh-CN": "案例：纽约高线公园。铁路遗迹、线性游览序列、植被和城市视景共同组织工业过去与当代公共生活的叙事。",
+        "ja-JP": "事例：ニューヨークのハイライン。鉄道遺構、線形動線、植栽、都市眺望を重ね、産業の過去と現在の公共生活を連続的に読ませる。",
+        "en-US": "Case: New York's High Line, where rail traces, a linear sequence, planting and city views narrate the transition from industrial infrastructure to public life."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 80,
+      "stableId": "concept-everyday-urbanism",
+      "title": {
+        "zh-CN": "日常都市主义",
+        "ja-JP": "エブリデイ・アーバニズム",
+        "en-US": "Everyday Urbanism"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "社区更新",
+        "街道设计",
+        "公共空间",
+        "非正规空间"
+      ],
+      "tags": [
+        "社区生活",
+        "公共空间",
+        "渐进实施"
+      ],
+      "definition": {
+        "zh-CN": "关注居民真实、重复和非正式的日常活动，把摊贩、停车边角、临时占用、邻里交往等普通实践视为城市空间生成的重要力量，并据此进行低扰动设计。",
+        "ja-JP": "住民の反復的・非公式な日常活動に着目し、露店、駐車余地、暫定利用、近隣交流などの普通の実践を都市空間をつくる力として捉え、低負荷な設計へつなげる。",
+        "en-US": "An approach centered on ordinary, repeated and informal practices—such as vending, residual parking areas, temporary occupation and neighborly interaction—as forces shaping urban space."
+      },
+      "caseNote": {
+        "zh-CN": "案例：洛杉矶 Everyday Urbanism 研究，以普通街道、商业带、停车场和临时活动为对象，从真实使用而非理想化图景出发。",
+        "ja-JP": "事例：ロサンゼルスを扱った Everyday Urbanism 研究。普通の街路、商業帯、駐車場、暫定活動を観察し、実際の利用から都市を読む。",
+        "en-US": "Case: Everyday Urbanism studies of Los Angeles, which examine ordinary streets, commercial strips, parking lots and temporary activities rather than idealized urban images."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 81,
+      "stableId": "concept-innovation-ecosystem",
+      "title": {
+        "zh-CN": "创新生态系统",
+        "ja-JP": "イノベーション・エコシステム",
+        "en-US": "Innovation Ecosystem"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "创新城区",
+        "产业园区",
+        "大学城",
+        "城市更新"
+      ],
+      "tags": [
+        "产业创新",
+        "空间结构",
+        "公众协作"
+      ],
+      "definition": {
+        "zh-CN": "将企业、大学、科研机构、资本、创业服务、人才与公共空间视为相互依赖的创新网络，通过空间邻近、开放交流和制度协作促进知识扩散与新产业形成。",
+        "ja-JP": "企業、大学、研究機関、資本、起業支援、人材、公共空間を相互依存するネットワークとして捉え、近接性、開放的交流、制度協働によって知識移転と新産業を促す。",
+        "en-US": "A network of firms, universities, research institutions, capital, startup support, talent and public space whose proximity and institutional collaboration support knowledge exchange and new industry."
+      },
+      "caseNote": {
+        "zh-CN": "案例：美国剑桥 Kendall Square。MIT、生命科学企业、创业资本和公共空间高度集聚并持续交换知识。",
+        "ja-JP": "事例：米国ケンブリッジの Kendall Square。MIT、ライフサイエンス企業、ベンチャー資本、公共空間が近接し、知識交流を生む。",
+        "en-US": "Case: Kendall Square, Cambridge, where MIT, life-science firms, venture capital and public spaces form a dense environment for knowledge exchange."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 82,
+      "stableId": "concept-algorithmic-governance",
+      "title": {
+        "zh-CN": "算法治理",
+        "ja-JP": "アルゴリズム・ガバナンス",
+        "en-US": "Algorithmic Governance"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "数字城市",
+        "城市管理",
+        "公共服务",
+        "数字治理"
+      ],
+      "tags": [
+        "公众协作",
+        "产业创新",
+        "场所认知"
+      ],
+      "definition": {
+        "zh-CN": "对参与城市决策和公共服务的算法系统建立登记、透明说明、风险评估、审计、问责和人工监督机制，避免数据与模型成为不可解释的黑箱治理工具。",
+        "ja-JP": "都市の意思決定や公共サービスに使うアルゴリズムについて、登録、説明、リスク評価、監査、説明責任、人による監督を整備し、ブラックボックス化を防ぐガバナンス。",
+        "en-US": "Governance mechanisms—registers, transparency, risk assessment, audits, accountability and human oversight—for algorithms used in urban decisions and public services."
+      },
+      "caseNote": {
+        "zh-CN": "案例：阿姆斯特丹算法登记制度，公开政府使用算法的用途、数据和责任信息，提高透明度与公众监督。",
+        "ja-JP": "事例：アムステルダムのアルゴリズム登録。行政が利用するアルゴリズムの目的、データ、責任情報を公開し、市民監督を支える。",
+        "en-US": "Case: Amsterdam's Algorithm Register, which publishes information on public-sector algorithms, their purposes, data and responsibilities to support transparency and oversight."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 83,
+      "stableId": "concept-healing-environment",
+      "title": {
+        "zh-CN": "疗愈环境设计",
+        "ja-JP": "ヒーリング環境デザイン",
+        "en-US": "Healing Environment Design"
+      },
+      "aliases": [],
+      "category": "建筑空间与性能",
+      "projectTypes": [
+        "医疗建筑",
+        "养老设施",
+        "社区公共空间",
+        "康复景观"
+      ],
+      "tags": [
+        "自然生态",
+        "包容设计",
+        "公共空间"
+      ],
+      "definition": {
+        "zh-CN": "通过自然光、绿化与景观、声环境、清晰导向、私密性、社会支持和可控感等环境因素降低压力、提升舒适度，并支持恢复和长期身心福祉。",
+        "ja-JP": "自然光、緑、眺望、音環境、分かりやすい動線、プライバシー、社会的支援、環境を自分で調整できる感覚によってストレスを減らし、快適性と回復を支える。",
+        "en-US": "Design that uses daylight, nature, acoustics, legible wayfinding, privacy, social support and user control to reduce stress, improve comfort and support recovery and wellbeing."
+      },
+      "caseNote": {
+        "zh-CN": "案例：英国 Maggie’s Centres，以家庭化尺度、自然采光、花园以及可选择的社交与独处空间营造非机构化疗愈环境。",
+        "ja-JP": "事例：英国の Maggie’s Centres。家庭的な尺度、自然光、庭、交流と一人で過ごす選択肢によって非施設的な療養環境をつくる。",
+        "en-US": "Case: Maggie's Centres in the UK, which use domestic scale, daylight, gardens and a choice between social and private spaces to create non-institutional healing environments."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 84,
+      "stableId": "concept-inclusive-urban-design",
+      "title": {
+        "zh-CN": "包容性城市设计",
+        "ja-JP": "インクルーシブ都市デザイン",
+        "en-US": "Inclusive Urban Design"
+      },
+      "aliases": [],
+      "category": "街道与公共空间",
+      "projectTypes": [
+        "城市设计",
+        "公共空间",
+        "社区规划",
+        "街道设计"
+      ],
+      "tags": [
+        "包容设计",
+        "公共空间",
+        "社区生活"
+      ],
+      "definition": {
+        "zh-CN": "面向不同年龄、能力、性别、文化背景和社会经济条件的人群，减少物理、信息和社会使用障碍，使城市空间具有公平可达、可理解和可参与的使用条件。",
+        "ja-JP": "年齢、能力、性別、文化、社会経済状況の異なる人々に対し、物理的・情報的・社会的障壁を減らし、公平にアクセス・理解・参加できる都市空間をつくる。",
+        "en-US": "Urban design that reduces physical, informational and social barriers for people of different ages, abilities, genders, cultures and socioeconomic conditions."
+      },
+      "caseNote": {
+        "zh-CN": "案例：哥本哈根 Superkilen，将多元移民社区的文化物件、活动和公共空间需求纳入设计，体现文化代表与共同使用。",
+        "ja-JP": "事例：コペンハーゲンの Superkilen。多文化な移民地域の物品、活動、公共空間需要を設計に組み込み、文化的代表性と共同利用を示した。",
+        "en-US": "Case: Superkilen, Copenhagen, which incorporates objects, activities and public-space needs from a diverse immigrant community to support representation and shared use."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 85,
+      "stableId": "concept-carbon-neutral-planning",
+      "title": {
+        "zh-CN": "碳中和规划设计",
+        "ja-JP": "カーボンニュートラル計画・設計",
+        "en-US": "Carbon-Neutral Planning & Design"
+      },
+      "aliases": [],
+      "category": "生态与韧性",
+      "projectTypes": [
+        "总体规划",
+        "城市设计",
+        "低碳社区",
+        "产业园区"
+      ],
+      "tags": [
+        "低碳气候",
+        "循环资源",
+        "慢行交通"
+      ],
+      "definition": {
+        "zh-CN": "从土地利用、交通、建筑、能源、材料和碳汇等多个系统减少全生命周期温室气体排放，并在深度减排后处理剩余排放，使片区或项目朝净零碳目标运行。",
+        "ja-JP": "土地利用、交通、建築、エネルギー、材料、吸収源を横断してライフサイクル排出を削減し、十分な削減後の残余排出を扱って地区・事業をネットゼロへ近づける。",
+        "en-US": "A whole-system approach to reduce life-cycle greenhouse-gas emissions across land use, mobility, buildings, energy, materials and carbon sinks, addressing residual emissions after deep reductions."
+      },
+      "caseNote": {
+        "zh-CN": "案例：德国弗赖堡 Vauban 社区，通过低能耗建筑、公共交通和自行车优先、低汽车依赖与能源系统组合形成低碳社区。",
+        "ja-JP": "事例：ドイツ・フライブルクの Vauban。低エネルギー建築、公共交通・自転車優先、自動車依存低減、エネルギーシステムを組み合わせた。",
+        "en-US": "Case: Vauban, Freiburg, combining low-energy buildings, transit and cycling priority, low car dependence and district energy strategies."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 86,
+      "stableId": "concept-spatial-montage",
+      "title": {
+        "zh-CN": "空间蒙太奇",
+        "ja-JP": "空間モンタージュ",
+        "en-US": "Spatial Montage"
+      },
+      "aliases": [],
+      "category": "街道与公共空间",
+      "projectTypes": [
+        "城市设计",
+        "建筑设计",
+        "文化空间",
+        "公共空间"
+      ],
+      "tags": [
+        "场所认知",
+        "公共空间",
+        "空间结构"
+      ],
+      "definition": {
+        "zh-CN": "借用电影蒙太奇的并置、切换和序列方法，将不同空间、事件和视景在移动过程中组合，使使用者通过连续与跳跃的体验形成多重解读。",
+        "ja-JP": "映画のモンタージュにおける並置、切替え、シークエンスを空間構成へ応用し、異なる空間・出来事・眺望を移動の中で組み合わせ、多義的な体験をつくる。",
+        "en-US": "A spatial method derived from cinematic montage, combining juxtaposition, cuts and sequences of spaces, events and views to create multiple readings through movement."
+      },
+      "caseNote": {
+        "zh-CN": "案例：巴黎拉维莱特公园。Tschumi 以点、线、面和事件的叠加组织公园，使不同系统并置而不被单一构图统摄。",
+        "ja-JP": "事例：パリのラ・ヴィレット公園。Tschumi は点・線・面と出来事を重ね、複数のシステムを単一構図に従属させず並置した。",
+        "en-US": "Case: Parc de la Villette, Paris, where Tschumi overlays points, lines, surfaces and events without subordinating them to a single composition."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 87,
+      "stableId": "concept-space-syntax",
+      "title": {
+        "zh-CN": "空间句法",
+        "ja-JP": "スペース・シンタックス",
+        "en-US": "Space Syntax"
+      },
+      "aliases": [],
+      "category": "城市结构",
+      "projectTypes": [
+        "城市设计",
+        "街道网络",
+        "公共空间",
+        "交通与步行分析"
+      ],
+      "tags": [
+        "连通网络",
+        "空间结构",
+        "场所认知"
+      ],
+      "definition": {
+        "zh-CN": "以连接度、整合度、选择度等指标描述空间网络的配置关系，分析空间结构与步行流、可达性、活动分布之间的关联，为方案比较和空间优化提供量化依据。",
+        "ja-JP": "接続度、統合度、選択度などで空間ネットワークの構成を記述し、空間構造と歩行流、アクセシビリティ、活動分布の関係を分析する方法。",
+        "en-US": "A method that describes spatial networks using measures such as connectivity, integration and choice to analyze relationships among configuration, pedestrian flow, accessibility and activity."
+      },
+      "caseNote": {
+        "zh-CN": "案例：伦敦特拉法加广场改造，空间句法分析用于研究步行网络、预测人流并支持公共空间重构。",
+        "ja-JP": "事例：ロンドン・トラファルガー広場の改修。歩行ネットワーク分析と人流予測を公共空間再編の根拠に用いた。",
+        "en-US": "Case: Trafalgar Square, London, where space-syntax analysis of pedestrian networks and movement supported the redesign of public space."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 88,
+      "stableId": "concept-deconstructivist-urban-design",
+      "title": {
+        "zh-CN": "解构主义设计",
+        "ja-JP": "脱構築主義デザイン",
+        "en-US": "Deconstructivist Design"
+      },
+      "aliases": [],
+      "category": "街道与公共空间",
+      "projectTypes": [
+        "建筑设计",
+        "城市设计",
+        "文化空间",
+        "公共空间"
+      ],
+      "tags": [
+        "空间结构",
+        "场所认知",
+        "公共空间"
+      ],
+      "definition": {
+        "zh-CN": "通过碎片化、错位、叠加和非中心化构图挑战单一轴线、等级和完整秩序，使空间关系保持多义、冲突和开放解释，同时仍需满足实际功能与结构要求。",
+        "ja-JP": "断片化、ずれ、重層、非中心的構成によって単一軸線や階層的秩序を揺さぶり、多義性と緊張を保ちながら、実際の機能・構造条件を満たす設計態度。",
+        "en-US": "A design attitude using fragmentation, displacement, overlay and non-central composition to challenge singular axes and hierarchy while still meeting functional and structural requirements."
+      },
+      "caseNote": {
+        "zh-CN": "案例：巴黎拉维莱特公园。点、线、面系统相互独立又叠置，拒绝以单一中心或轴线统摄全园。",
+        "ja-JP": "事例：パリのラ・ヴィレット公園。点・線・面のシステムを独立させつつ重ね、単一の中心や軸で公園全体を統制しない。",
+        "en-US": "Case: Parc de la Villette, where independent systems of points, lines and surfaces overlap without a single organizing center or axis."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 89,
+      "stableId": "concept-space-of-flows",
+      "title": {
+        "zh-CN": "流空间",
+        "ja-JP": "フローの空間",
+        "en-US": "Space of Flows"
+      },
+      "aliases": [],
+      "category": "城市结构",
+      "projectTypes": [
+        "都市圈",
+        "交通枢纽",
+        "商业中心",
+        "数字城市"
+      ],
+      "tags": [
+        "连通网络",
+        "空间结构",
+        "产业创新"
+      ],
+      "definition": {
+        "zh-CN": "把人员、信息、资本和组织关系形成的网络流动视为塑造城市空间的重要力量，强调节点之间的连接强度与网络位置有时比地理邻近更能解释城市中心性。",
+        "ja-JP": "人、情報、資本、組織関係のネットワーク流動を都市空間を形成する主要因として捉え、地理的近接だけでなくノード間の接続強度やネットワーク位置を重視する。",
+        "en-US": "A network-society concept in which flows of people, information, capital and organizations shape urban space, making network position and connectivity as important as geographic proximity."
+      },
+      "caseNote": {
+        "zh-CN": "案例：香港中环—金钟的轨道、商业与步行连廊网络，高密度交通节点、商业综合体和全球金融活动由连续流动组织。",
+        "ja-JP": "事例：香港・中環―金鐘の鉄道、商業、歩行者デッキのネットワーク。交通拠点、複合施設、金融活動が連続する流れによって結ばれる。",
+        "en-US": "Case: Hong Kong's Central-Admiralty rail, commercial and footbridge network, where dense transport nodes, mixed-use complexes and financial activity are organized through continuous flows."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 90,
+      "stableId": "concept-intergenerational-community",
+      "title": {
+        "zh-CN": "代际互助社区",
+        "ja-JP": "世代間共助コミュニティ",
+        "en-US": "Intergenerational Community"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "社区规划",
+        "养老设施",
+        "住房设计",
+        "公共服务"
+      ],
+      "tags": [
+        "社区生活",
+        "包容设计",
+        "公众协作"
+      ],
+      "definition": {
+        "zh-CN": "通过住房、公共空间、服务和运营机制让不同年龄群体在同一社区中持续交往并形成互惠支持，使照护、陪伴、学习和日常服务不完全按年龄隔离。",
+        "ja-JP": "住宅、公共空間、サービス、運営を通じて異なる世代が継続的に交流し、ケア、見守り、学び、日常支援を相互に補完できるコミュニティをつくる。",
+        "en-US": "A community model that uses housing, public space, services and operations to sustain interaction and mutual support among age groups rather than separating care and daily life by age."
+      },
+      "caseNote": {
+        "zh-CN": "案例：荷兰 Humanitas Deventer，学生以陪伴和社区参与换取低租金，与老年居民共同生活。",
+        "ja-JP": "事例：オランダの Humanitas Deventer。学生が低家賃と引き換えに高齢者との交流や地域活動へ参加し、同じ施設で暮らす。",
+        "en-US": "Case: Humanitas Deventer in the Netherlands, where students live alongside older residents and contribute companionship and community participation in exchange for low rent."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 91,
+      "stableId": "concept-community-building",
+      "title": {
+        "zh-CN": "社区营造",
+        "ja-JP": "コミュニティ主体のまちづくり",
+        "en-US": "Community Building"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "社区更新",
+        "乡村规划",
+        "历史街区",
+        "公共空间"
+      ],
+      "tags": [
+        "公众协作",
+        "社区生活",
+        "渐进实施"
+      ],
+      "definition": {
+        "zh-CN": "以居民和地方组织为主体，将共同议题、参与决策、空间改善、活动运营和长期治理结合起来，使社区不仅被设计，而且具有持续自我组织和维护场所的能力。",
+        "ja-JP": "住民と地域組織を主体に、共通課題、参加型意思決定、空間改善、活動運営、長期ガバナンスを結び、地域が継続的に自ら場所をつくり維持できる力を育てる。",
+        "en-US": "A community-led process combining shared issues, participatory decisions, spatial improvement, programming and long-term governance so residents can continue organizing and caring for place."
+      },
+      "caseNote": {
+        "zh-CN": "案例：英国利物浦 Granby Four Streets，居民通过长期行动、社区土地信托和渐进住宅更新推动街区再生。",
+        "ja-JP": "事例：英国リバプールの Granby Four Streets。住民運動、コミュニティ土地信託、段階的住宅再生を組み合わせて街区を再生した。",
+        "en-US": "Case: Granby Four Streets, Liverpool, where long-term resident action, a community land trust and incremental housing renewal drove neighborhood regeneration."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 92,
+      "stableId": "concept-pedf",
+      "title": {
+        "zh-CN": "光储直柔",
+        "ja-JP": "太陽光・蓄電・直流・柔軟負荷（PEDF）",
+        "en-US": "PEDF: Photovoltaics, Energy Storage, Direct Current & Flexibility"
+      },
+      "aliases": [],
+      "category": "建筑空间与性能",
+      "projectTypes": [
+        "低碳建筑",
+        "产业园区",
+        "公共建筑",
+        "基础设施"
+      ],
+      "tags": [
+        "低碳气候",
+        "循环资源",
+        "弹性与适应"
+      ],
+      "definition": {
+        "zh-CN": "将光伏发电、储能、直流配电和柔性用电负荷协同设计，使建筑能够提高可再生能源就地消纳率、降低转换损耗，并根据电网与能源供需动态调节用能。",
+        "ja-JP": "太陽光発電、蓄電、直流配電、柔軟な需要を統合し、再生可能エネルギーの自家消費、変換損失低減、系統状況に応じた需要調整を実現する建築エネルギー設計。",
+        "en-US": "An integrated building-energy approach combining photovoltaics, storage, DC distribution and flexible loads to increase local renewable use, reduce conversion losses and respond to grid conditions."
+      },
+      "caseNote": {
+        "zh-CN": "案例：深圳等地的光储直柔建筑示范项目，用于验证建筑侧能源协同与需求响应。",
+        "ja-JP": "事例：中国・深圳などの PEDF 建築実証。建物側で再エネ、蓄電、直流、需要応答を統合する運用を検証している。",
+        "en-US": "Case: PEDF building demonstrations in Shenzhen and other Chinese cities, testing integrated on-site renewables, storage, DC distribution and demand response."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 93,
+      "stableId": "concept-infrastructural-urbanism",
+      "title": {
+        "zh-CN": "基础设施都市主义",
+        "ja-JP": "インフラストラクチュラル・アーバニズム",
+        "en-US": "Infrastructural Urbanism"
+      },
+      "aliases": [],
+      "category": "城市结构",
+      "projectTypes": [
+        "基础设施",
+        "城市设计",
+        "滨水设计",
+        "交通空间"
+      ],
+      "tags": [
+        "连通网络",
+        "公共空间",
+        "存量更新"
+      ],
+      "definition": {
+        "zh-CN": "把交通、水务、能源等基础设施视为塑造城市空间和公共生活的骨架，在满足工程功能的同时，通过覆盖、复合、连通和景观化形成新的公共空间与发展机会。",
+        "ja-JP": "交通、水、エネルギーなどのインフラを都市空間と公共生活を形成する骨格として捉え、工学機能を満たしながら覆蓋、複合化、接続、景観化によって新しい公共空間と開発機会を生む。",
+        "en-US": "An approach that treats transport, water and energy infrastructure as an urban framework, combining engineering performance with covering, mixing, reconnecting and landscape interventions."
+      },
+      "caseNote": {
+        "zh-CN": "案例：马德里 Río，M-30 快速路局部入地后释放河岸空间，形成连续公园、慢行和跨河连接。",
+        "ja-JP": "事例：Madrid Río。M-30 高速道路の地下化により河岸空間を解放し、連続公園、歩行・自転車動線、横断接続を形成した。",
+        "en-US": "Case: Madrid Río, where burying sections of the M-30 motorway released riverfront land for a continuous park, active-mobility routes and cross-river connections."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 94,
+      "stableId": "concept-spatial-equity",
+      "title": {
+        "zh-CN": "空间公平",
+        "ja-JP": "空間的公平性",
+        "en-US": "Spatial Equity"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "总体规划",
+        "公共服务",
+        "交通规划",
+        "社区更新"
+      ],
+      "tags": [
+        "包容设计",
+        "公众协作",
+        "连通网络"
+      ],
+      "definition": {
+        "zh-CN": "关注不同群体获得交通、公共服务、绿地、住房和环境品质的机会是否公平，并识别污染、风险和基础设施负担是否对弱势群体产生不成比例的影响。",
+        "ja-JP": "交通、公共サービス、緑地、住宅、環境品質へのアクセスが集団間で公平かを検討し、汚染、リスク、インフラ負担が脆弱な人々へ偏っていないかを評価する。",
+        "en-US": "A planning lens that evaluates whether access to mobility, services, green space, housing and environmental quality is fairly distributed and whether burdens fall disproportionately on vulnerable groups."
+      },
+      "caseNote": {
+        "zh-CN": "案例：哥伦比亚麦德林社会都市主义，以缆车、图书馆公园和公共空间优先改善山地低收入社区的可达性与服务。",
+        "ja-JP": "事例：コロンビア・メデジンの社会的アーバニズム。ロープウェイ、図書館公園、公共空間を低所得山地地区へ重点配置した。",
+        "en-US": "Case: Medellín's social urbanism, prioritizing cable cars, library parks and public spaces to improve access and services in lower-income hillside communities."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 95,
+      "stableId": "concept-urban-informality",
+      "title": {
+        "zh-CN": "城市非正规性",
+        "ja-JP": "都市インフォーマリティ",
+        "en-US": "Urban Informality"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "城中村",
+        "非正规住区",
+        "社区更新",
+        "住房"
+      ],
+      "tags": [
+        "社区生活",
+        "存量更新",
+        "渐进实施"
+      ],
+      "definition": {
+        "zh-CN": "将未经完整正式规划或产权制度形成的住房、经营和空间使用视为城市运行的一部分，关注其自建逻辑、社会网络和生计需求，并以渐进改善替代简单清除。",
+        "ja-JP": "正式な計画・権利制度の外で形成された住宅、商業、空間利用を都市の一部として捉え、自力建設、社会ネットワーク、生計を理解し、単純撤去ではなく段階的改善を検討する。",
+        "en-US": "A perspective that treats housing, livelihoods and space formed outside complete formal planning or tenure systems as part of urban life, favoring incremental upgrading over simple clearance."
+      },
+      "caseNote": {
+        "zh-CN": "案例：里约热内卢 Favela-Bairro，通过道路、公共空间、基础设施和社区设施改善贫民区，并尽量减少大规模搬迁。",
+        "ja-JP": "事例：リオデジャネイロの Favela-Bairro。道路、公共空間、インフラ、地域施設を改善し、大規模移転を抑えた。",
+        "en-US": "Case: Rio de Janeiro's Favela-Bairro program, which upgraded streets, public space, infrastructure and community facilities while limiting large-scale displacement."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 96,
+      "stableId": "concept-community-self-governance",
+      "title": {
+        "zh-CN": "社区自治",
+        "ja-JP": "コミュニティ自治",
+        "en-US": "Community Self-Governance"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "社区更新",
+        "社区资产",
+        "住房",
+        "乡村规划"
+      ],
+      "tags": [
+        "公众协作",
+        "社区生活",
+        "渐进实施"
+      ],
+      "definition": {
+        "zh-CN": "让居民和地方组织在社区公共事务、空间使用、资产管理和更新决策中拥有持续且实质的治理权，而不仅是一次性的意见征集。",
+        "ja-JP": "住民と地域組織が公共課題、空間利用、資産管理、再生意思決定に継続的かつ実質的な権限を持つ仕組みで、一回限りの意見募集にとどまらない。",
+        "en-US": "A governance model in which residents and local organizations hold continuing, substantive authority over community affairs, spatial use, assets and renewal decisions."
+      },
+      "caseNote": {
+        "zh-CN": "案例：英国 Granby Four Streets 社区土地信托，由社区持有和管理部分资产，并持续参与更新与运营。",
+        "ja-JP": "事例：英国 Granby Four Streets のコミュニティ土地信託。地域が資産の一部を保有・管理し、再生と運営に継続的に関与する。",
+        "en-US": "Case: Granby Four Streets Community Land Trust, where the community owns and manages assets and remains involved in renewal and operations."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 97,
+      "stableId": "concept-local-revitalization",
+      "title": {
+        "zh-CN": "地方创生",
+        "ja-JP": "地方創生",
+        "en-US": "Local Revitalization"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "乡村规划",
+        "小城镇",
+        "地方产业",
+        "社区更新"
+      ],
+      "tags": [
+        "产业创新",
+        "社区生活",
+        "公众协作"
+      ],
+      "definition": {
+        "zh-CN": "以人口、就业、地方产业、公共服务、文化认同和社区主体为整体，通过产业培育、人才导入、空间改善和地方治理提升人口减少地区的持续发展能力。",
+        "ja-JP": "人口、雇用、地域産業、公共サービス、文化的アイデンティティ、地域主体を一体として捉え、産業、人材、空間改善、地域ガバナンスによって人口減少地域の持続力を高める。",
+        "en-US": "An integrated approach to demographic decline that combines local industry, jobs, services, identity, talent attraction, spatial improvement and community governance."
+      },
+      "caseNote": {
+        "zh-CN": "案例：日本德岛县神山町，通过卫星办公室、创意人才导入、教育和社区项目推动地方产业与人口结构变化。",
+        "ja-JP": "事例：徳島県神山町。サテライトオフィス、創造人材、教育、地域プロジェクトを組み合わせ、産業と人口構成の変化を促した。",
+        "en-US": "Case: Kamiyama, Tokushima, Japan, combining satellite offices, creative talent, education and community projects to reshape local industry and demographics."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 98,
+      "stableId": "concept-healthy-city",
+      "title": {
+        "zh-CN": "健康城市",
+        "ja-JP": "健康都市",
+        "en-US": "Healthy City"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "总体规划",
+        "社区规划",
+        "公共空间",
+        "公共服务"
+      ],
+      "tags": [
+        "社区生活",
+        "包容设计",
+        "公共空间"
+      ],
+      "definition": {
+        "zh-CN": "通过持续改善物质环境、社会环境、公共服务和社区资源，使居民能够相互支持并充分发挥健康与生活潜力；重点在城市环境和治理，而非具体医疗治疗。",
+        "ja-JP": "物理環境、社会環境、公共サービス、地域資源を継続的に改善し、人々が互いに支えながら健康と生活の可能性を高められる都市を目指す。医療行為そのものではなく都市環境とガバナンスを扱う。",
+        "en-US": "A citywide approach that continuously improves physical and social environments, public services and community resources so people can support one another and achieve better health and wellbeing."
+      },
+      "caseNote": {
+        "zh-CN": "案例：世界卫生组织欧洲健康城市网络，以跨部门治理、健康公平、健康促进和城市环境改善为长期实践框架。",
+        "ja-JP": "事例：WHO 欧州健康都市ネットワーク。部門横断ガバナンス、健康格差、健康増進、都市環境改善を継続的に扱う。",
+        "en-US": "Case: the WHO European Healthy Cities Network, which uses cross-sector governance, health equity, health promotion and urban-environment improvement as a long-term framework."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 99,
+      "stableId": "concept-edible-urbanism",
+      "title": {
+        "zh-CN": "可食城市主义",
+        "ja-JP": "エディブル・アーバニズム",
+        "en-US": "Edible Urbanism"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "社区规划",
+        "公共空间",
+        "城市农业",
+        "食物系统"
+      ],
+      "tags": [
+        "社区生活",
+        "自然生态",
+        "公众协作"
+      ],
+      "definition": {
+        "zh-CN": "把食物种植、加工、销售、教育和共享嵌入社区、街道与公共空间，使食物系统同时承担地方经济、社会交往、环境教育和空间营造功能。",
+        "ja-JP": "食料の栽培、加工、販売、教育、共有を地域、街路、公共空間へ組み込み、フードシステムを地域経済、交流、環境教育、場所づくりへつなげる。",
+        "en-US": "An approach that embeds growing, processing, selling, learning and sharing food into neighborhoods, streets and public spaces, linking food systems with local economy, social life and place-making."
+      },
+      "caseNote": {
+        "zh-CN": "案例：英国 Incredible Edible Todmorden，在公共空间设置可食种植，并与教育、市场和地方经济结合。",
+        "ja-JP": "事例：英国 Incredible Edible Todmorden。公共空間の食用植栽を教育、市場、地域経済と結び付けた。",
+        "en-US": "Case: Incredible Edible Todmorden in the UK, where edible planting in public space is linked with education, markets and the local economy."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 100,
+      "stableId": "concept-complete-neighborhood",
+      "title": {
+        "zh-CN": "完整街区",
+        "ja-JP": "コンプリート・ネイバーフッド",
+        "en-US": "Complete Neighborhood"
+      },
+      "aliases": [],
+      "category": "城市结构",
+      "projectTypes": [
+        "社区规划",
+        "生活圈",
+        "城市更新",
+        "新区规划"
+      ],
+      "tags": [
+        "社区生活",
+        "慢行交通",
+        "连通网络"
+      ],
+      "definition": {
+        "zh-CN": "在步行、骑行或短程公共交通可达范围内配置日常生活所需的住房、就业、教育、商业、绿地和公共服务，并通过连续街道网络形成便利的日常生活单元。",
+        "ja-JP": "徒歩、自転車、短距離公共交通で到達できる範囲に住宅、雇用、教育、商業、緑地、公共サービスを配置し、連続した街路網で日常生活を完結しやすくする。",
+        "en-US": "A neighborhood model that places housing, jobs, education, shops, green space and public services within walking, cycling or short transit reach and connects them through a continuous street network."
+      },
+      "caseNote": {
+        "zh-CN": "案例：美国波特兰 20-Minute Neighborhoods，以步行和骑行时间衡量居民获得日常服务的便利度。",
+        "ja-JP": "事例：米国ポートランドの 20-Minute Neighborhoods。徒歩・自転車の所要時間で日常サービスへのアクセスを評価する。",
+        "en-US": "Case: Portland's 20-Minute Neighborhoods, which measure residents' access to everyday services using walking and cycling travel times."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 101,
+      "stableId": "concept-landscape-urbanism",
+      "title": {
+        "zh-CN": "景观都市主义",
+        "ja-JP": "ランドスケープ・アーバニズム",
+        "en-US": "Landscape Urbanism"
+      },
+      "aliases": [],
+      "category": "生态与韧性",
+      "projectTypes": [
+        "城市设计",
+        "大型公园",
+        "棕地更新",
+        "滨水设计"
+      ],
+      "tags": [
+        "自然生态",
+        "公共空间",
+        "存量更新"
+      ],
+      "definition": {
+        "zh-CN": "将景观、生态过程和开放空间系统视为组织城市变化的基础介质，强调时间演化、基础设施与生态过程对城市形态的塑造作用，而非仅以建筑实体作为主导。",
+        "ja-JP": "ランドスケープ、生態プロセス、オープンスペースを都市変化の基盤媒体として捉え、建築物だけでなく時間、インフラ、生態過程による都市形成を重視する。",
+        "en-US": "An approach that treats landscape, ecological processes and open-space systems as primary media for organizing urban change, emphasizing time and infrastructure rather than buildings alone."
+      },
+      "caseNote": {
+        "zh-CN": "案例：纽约 Freshkills Park，大型垃圾填埋场通过长期生态修复、分期开放和基础设施改造转型为城市公园。",
+        "ja-JP": "事例：ニューヨークの Freshkills Park。大規模埋立地を長期的な生態修復、段階開放、インフラ転換によって都市公園へ再生している。",
+        "en-US": "Case: Freshkills Park, New York, transforming a vast landfill through long-term ecological restoration, phased public access and infrastructure conversion."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 102,
+      "stableId": "concept-cradle-to-cradle",
+      "title": {
+        "zh-CN": "从摇篮到摇篮",
+        "ja-JP": "クレイドル・トゥ・クレイドル",
+        "en-US": "Cradle to Cradle"
+      },
+      "aliases": [],
+      "category": "生态与韧性",
+      "projectTypes": [
+        "建筑设计",
+        "城市更新",
+        "循环园区",
+        "材料策略"
+      ],
+      "tags": [
+        "循环资源",
+        "低碳气候",
+        "弹性与适应"
+      ],
+      "definition": {
+        "zh-CN": "将材料视为可持续循环的“生物养分”或“技术养分”，在设计阶段就考虑拆解、回收、再制造和无毒循环，使产品与建筑尽量避免形成不可利用的终端废弃物。",
+        "ja-JP": "材料を循環可能な「生物的栄養素」「技術的栄養素」と捉え、設計段階から分解、回収、再製造、無毒な循環を考え、利用不能な最終廃棄物を減らす。",
+        "en-US": "A circular-design principle that treats materials as biological or technical nutrients and plans for disassembly, recovery, remanufacture and non-toxic cycles from the outset."
+      },
+      "caseNote": {
+        "zh-CN": "案例：荷兰芬洛市政厅，将可拆解、可回收和健康材料原则纳入建筑设计，是 Cradle to Cradle 的代表实践。",
+        "ja-JP": "事例：オランダ・フェンロー市庁舎。分解可能性、材料回収、健康性を建築設計へ組み込んだ代表的 C2C 事例。",
+        "en-US": "Case: Venlo City Hall, Netherlands, a prominent Cradle-to-Cradle application emphasizing material health, disassembly and recovery."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 103,
+      "stableId": "concept-urban-digital-twin",
+      "title": {
+        "zh-CN": "城市数字孪生",
+        "ja-JP": "都市デジタルツイン",
+        "en-US": "Urban Digital Twin"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "数字城市",
+        "城市管理",
+        "规划评估",
+        "基础设施"
+      ],
+      "tags": [
+        "产业创新",
+        "空间结构",
+        "连通网络"
+      ],
+      "definition": {
+        "zh-CN": "建立与真实城市资产、环境和运行状态相对应的数字模型，并通过持续数据更新用于可视化、仿真、方案比较和运行监测，使模型随现实变化而更新。",
+        "ja-JP": "実都市の資産、環境、運用状態に対応するデジタルモデルを構築し、継続的なデータ更新によって可視化、シミュレーション、案比較、運用監視に利用する。",
+        "en-US": "A continuously updated digital representation of urban assets, environments and operations used for visualization, simulation, option comparison and monitoring."
+      },
+      "caseNote": {
+        "zh-CN": "案例：Virtual Singapore，构建覆盖建筑、地形和多类城市数据的三维平台，用于规划、环境模拟和跨部门城市管理。",
+        "ja-JP": "事例：Virtual Singapore。建物、地形、多様な都市データを統合した3D基盤を計画、環境シミュレーション、部門横断管理に利用する。",
+        "en-US": "Case: Virtual Singapore, a 3D platform integrating buildings, terrain and urban datasets for planning, environmental simulation and cross-agency applications."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 104,
+      "stableId": "concept-cittaslow",
+      "title": {
+        "zh-CN": "慢城",
+        "ja-JP": "スローシティ（Cittaslow）",
+        "en-US": "Cittaslow / Slow City"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "小城镇",
+        "历史城镇",
+        "文旅策划",
+        "地方发展"
+      ],
+      "tags": [
+        "社区生活",
+        "场所认知",
+        "低碳气候"
+      ],
+      "definition": {
+        "zh-CN": "强调地方特色、环境品质、慢节奏生活、地方食品与经济、公共空间和社区关系，以生活质量而非单纯速度和增长作为小城市发展评价的重要目标。",
+        "ja-JP": "地域性、環境品質、ゆとりある生活、地域の食と経済、公共空間、コミュニティ関係を重視し、速度や成長だけでなく生活の質を小都市発展の基準とする。",
+        "en-US": "A small-city development approach emphasizing local identity, environmental quality, slower everyday rhythms, local food and economy, public space and community relationships."
+      },
+      "caseNote": {
+        "zh-CN": "案例：意大利奥尔维耶托，Cittaslow 网络发起城市之一，通过地方文化、环境和生活品质保护体现慢城原则。",
+        "ja-JP": "事例：イタリア・オルヴィエート。Cittaslow の創設都市の一つとして、地域文化、環境、生活品質を重視している。",
+        "en-US": "Case: Orvieto, Italy, one of the founding Cittaslow cities, emphasizing local culture, environmental quality and everyday quality of life."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 105,
+      "stableId": "concept-production-city-integration",
+      "title": {
+        "zh-CN": "产城融合",
+        "ja-JP": "産業・都市機能の融合",
+        "en-US": "Industry-City Integration"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "产业园区",
+        "新区规划",
+        "城市更新",
+        "综合片区"
+      ],
+      "tags": [
+        "产业创新",
+        "空间结构",
+        "社区生活"
+      ],
+      "definition": {
+        "zh-CN": "在产业空间周边同步组织住房、商业、公共服务、公共空间和交通，减少单一产业园与居住区长期分离造成的通勤和生活配套问题，使就业与城市生活形成完整片区。",
+        "ja-JP": "産業空間と住宅、商業、公共サービス、公共空間、交通を一体的に配置し、職住分離による長距離通勤や生活機能不足を減らして、就業と都市生活が共存する地区をつくる。",
+        "en-US": "An approach that integrates industry with housing, commerce, public services, public space and mobility to reduce long commutes and the service deficits of isolated employment parks."
+      },
+      "caseNote": {
+        "zh-CN": "案例：苏州工业园区，在产业导入之外持续建设居住、商业、教育、公共空间和轨道交通，形成较完整的城市功能。",
+        "ja-JP": "事例：蘇州工業園区。産業誘致と並行して住宅、商業、教育、公共空間、鉄道を整備し、都市機能を段階的に形成した。",
+        "en-US": "Case: Suzhou Industrial Park, where housing, commerce, education, public space and rail transit were developed alongside industry to create a more complete urban district."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 106,
+      "stableId": "concept-urban-symbiosis",
+      "title": {
+        "zh-CN": "城市共生",
+        "ja-JP": "都市共生",
+        "en-US": "Urban Symbiosis"
+      },
+      "aliases": [],
+      "category": "生态与韧性",
+      "projectTypes": [
+        "城市设计",
+        "生态城区",
+        "产业园区",
+        "社区规划"
+      ],
+      "tags": [
+        "循环资源",
+        "社区生活",
+        "自然生态"
+      ],
+      "definition": {
+        "zh-CN": "把城市中的人群、功能、资源和生态系统视为相互依赖的主体，通过共享设施、资源循环、功能互补和环境协同形成互利关系，而不是各自封闭运行。",
+        "ja-JP": "人々、都市機能、資源、生態系を相互依存する主体として捉え、施設共有、資源循環、機能補完、環境協調によって相互利益を生む都市システムをつくる。",
+        "en-US": "A systems approach that treats people, urban functions, resources and ecosystems as interdependent, creating mutual benefits through shared facilities, resource loops and complementary functions."
+      },
+      "caseNote": {
+        "zh-CN": "案例：瑞典哈马碧生态城，将能源、水、废弃物和城市开发系统联动，形成典型的城市资源循环与系统协同。",
+        "ja-JP": "事例：スウェーデン・ハンマルビー・ショースタッド。エネルギー、水、廃棄物、都市開発を統合した環境モデルで知られる。",
+        "en-US": "Case: Hammarby Sjöstad, Stockholm, known for integrating energy, water, waste and urban development into a coordinated resource system."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 107,
+      "stableId": "concept-smart-city",
+      "title": {
+        "zh-CN": "智慧城市",
+        "ja-JP": "スマートシティ",
+        "en-US": "Smart City"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "总体规划",
+        "数字治理",
+        "城市管理",
+        "基础设施"
+      ],
+      "tags": [
+        "产业创新",
+        "连通网络",
+        "公众协作"
+      ],
+      "definition": {
+        "zh-CN": "利用数字基础设施、数据平台、传感网络和计算工具提升城市服务、规划和管理能力，同时把互操作性、隐私、透明度和居民实际需求纳入治理框架。",
+        "ja-JP": "デジタルインフラ、データ基盤、センサーネットワーク、計算技術で都市サービス・計画・管理を改善しつつ、相互運用性、プライバシー、透明性、市民ニーズをガバナンスに組み込む。",
+        "en-US": "A city model using digital infrastructure, data platforms, sensor networks and computation to improve services, planning and management while addressing interoperability, privacy, transparency and resident needs."
+      },
+      "caseNote": {
+        "zh-CN": "案例：巴塞罗那智慧城市与数字治理实践，从传感与开放数据扩展到数字公共服务、数字权利和居民导向治理。",
+        "ja-JP": "事例：バルセロナのスマート／デジタル都市政策。センシングとオープンデータから、デジタル公共サービス、デジタル権利、市民中心のガバナンスへ展開した。",
+        "en-US": "Case: Barcelona's smart/digital city practice, which evolved from sensors and open data toward digital public services, digital rights and resident-centered governance."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 108,
+      "stableId": "concept-plug-in-urbanism",
+      "title": {
+        "zh-CN": "插件式城市主义",
+        "ja-JP": "プラグイン・アーバニズム",
+        "en-US": "Plug-In Urbanism"
+      },
+      "aliases": [],
+      "category": "城市结构",
+      "projectTypes": [
+        "建筑设计",
+        "城市设计",
+        "临时空间",
+        "模块化更新"
+      ],
+      "tags": [
+        "弹性与适应",
+        "渐进实施",
+        "空间结构"
+      ],
+      "definition": {
+        "zh-CN": "以可插入、可替换和可扩展的模块单元响应功能变化，使建筑或城市基础结构能够在不整体拆除的情况下持续增减、重组和更新。",
+        "ja-JP": "挿入・交換・拡張可能なモジュールで機能変化に対応し、建築や都市基盤を全面解体せずに増減、再編、更新できるようにする考え方。",
+        "en-US": "A modular approach in which insertable, replaceable and expandable units allow buildings or urban frameworks to change without wholesale demolition."
+      },
+      "caseNote": {
+        "zh-CN": "案例：Archigram 1964 年《Plug-In City》概念方案，以长期基础骨架承载可替换模块，成为模块化城市思想的重要先例。",
+        "ja-JP": "事例：Archigram の1964年『Plug-In City』。長寿命の基盤骨格に交換可能なモジュールを組み込む概念案で、モジュール型都市論の代表的先例。",
+        "en-US": "Case: Archigram's 1964 Plug-In City, a seminal conceptual project in which a long-life megastructure hosts replaceable modules."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
+    },
+    {
+      "id": 109,
+      "stableId": "concept-continuing-care-retirement-community",
+      "title": {
+        "zh-CN": "持续照料退休社区（CCRC）",
+        "ja-JP": "継続ケア付きリタイアメント・コミュニティ（CCRC）",
+        "en-US": "Continuing Care Retirement Community (CCRC)"
+      },
+      "aliases": [],
+      "category": "更新与协同治理",
+      "projectTypes": [
+        "养老社区",
+        "居住区",
+        "社区服务",
+        "健康设施"
+      ],
+      "tags": [
+        "包容设计",
+        "社区生活",
+        "弹性与适应"
+      ],
+      "definition": {
+        "zh-CN": "在同一社区或运营体系中提供独立生活、协助生活、护理和相关健康服务，使老年居民可随照护需求变化在不同服务等级之间转换，减少被迫迁居。",
+        "ja-JP": "同一コミュニティまたは運営体系で自立生活、生活支援、介護、関連健康サービスを提供し、ケア需要の変化に応じて支援段階を移行できるようにする。",
+        "en-US": "A community and service model providing independent living, assisted living, nursing and related health support within one system so residents can transition as care needs change."
+      },
+      "caseNote": {
+        "zh-CN": "案例：美国 Kendal at Oberlin，在同一社区中组织独立居住、照护服务和公共活动设施，是成熟的 CCRC 实践。",
+        "ja-JP": "事例：米国 Kendal at Oberlin。自立住宅、段階的ケア、共用活動施設を同一コミュニティで提供する成熟した CCRC。",
+        "en-US": "Case: Kendal at Oberlin, USA, a mature CCRC combining independent housing, graduated care services and shared community facilities."
+      },
+      "sourceIds": [
+        "UPT-EDITORIAL",
+        "UPT-WUPEN-2026-08"
+      ],
+      "reviewStatus": "reviewed",
+      "lastReviewed": "2026-08-21"
     }
-  ]
+  ],
+  "labels": {
+    "categories": {
+      "城市更新": {
+        "zh-CN": "城市更新",
+        "ja-JP": "都市再生",
+        "en-US": "Urban Renewal"
+      },
+      "建筑空间": {
+        "zh-CN": "建筑空间",
+        "ja-JP": "建築空間",
+        "en-US": "Architectural Space"
+      },
+      "交通与节点": {
+        "zh-CN": "交通与节点",
+        "ja-JP": "交通・拠点",
+        "en-US": "Mobility & Nodes"
+      },
+      "生态与开放空间": {
+        "zh-CN": "生态与开放空间",
+        "ja-JP": "生態・オープンスペース",
+        "en-US": "Ecology & Open Space"
+      },
+      "功能组织": {
+        "zh-CN": "功能组织",
+        "ja-JP": "用途構成",
+        "en-US": "Program Organization"
+      },
+      "城市结构": {
+        "zh-CN": "城市结构",
+        "ja-JP": "都市構造",
+        "en-US": "Urban Structure"
+      },
+      "生活圈": {
+        "zh-CN": "生活圈",
+        "ja-JP": "生活圏",
+        "en-US": "Neighborhood Accessibility"
+      },
+      "水环境": {
+        "zh-CN": "水环境",
+        "ja-JP": "水環境",
+        "en-US": "Water Environment"
+      },
+      "渐进实施": {
+        "zh-CN": "渐进实施",
+        "ja-JP": "段階的実施",
+        "en-US": "Incremental Delivery"
+      },
+      "公共空间": {
+        "zh-CN": "公共空间",
+        "ja-JP": "公共空間",
+        "en-US": "Public Space"
+      },
+      "街道空间": {
+        "zh-CN": "街道空间",
+        "ja-JP": "街路空間",
+        "en-US": "Street Space"
+      },
+      "存量建筑": {
+        "zh-CN": "存量建筑",
+        "ja-JP": "既存建築",
+        "en-US": "Existing Buildings"
+      },
+      "节点策略": {
+        "zh-CN": "节点策略",
+        "ja-JP": "拠点戦略",
+        "en-US": "Node Strategy"
+      },
+      "交通空间": {
+        "zh-CN": "交通空间",
+        "ja-JP": "交通空間",
+        "en-US": "Mobility Space"
+      },
+      "生态网络": {
+        "zh-CN": "生态网络",
+        "ja-JP": "生態ネットワーク",
+        "en-US": "Ecological Network"
+      },
+      "韧性规划": {
+        "zh-CN": "韧性规划",
+        "ja-JP": "レジリエンス計画",
+        "en-US": "Resilience Planning"
+      },
+      "街道与公共空间": {
+        "zh-CN": "街道与公共空间",
+        "ja-JP": "街路・公共空間",
+        "en-US": "Streets & Public Space"
+      },
+      "建筑空间与性能": {
+        "zh-CN": "建筑空间与性能",
+        "ja-JP": "建築空間・性能",
+        "en-US": "Building Space & Performance"
+      },
+      "生态与韧性": {
+        "zh-CN": "生态与韧性",
+        "ja-JP": "生態・レジリエンス",
+        "en-US": "Ecology & Resilience"
+      },
+      "更新与协同治理": {
+        "zh-CN": "更新与协同治理",
+        "ja-JP": "再生・協働ガバナンス",
+        "en-US": "Renewal & Collaborative Governance"
+      }
+    },
+    "tags": {
+      "空间结构": {
+        "zh-CN": "空间结构",
+        "ja-JP": "都市構造",
+        "en-US": "Spatial Structure"
+      },
+      "连通网络": {
+        "zh-CN": "连通网络",
+        "ja-JP": "接続ネットワーク",
+        "en-US": "Connectivity"
+      },
+      "公共空间": {
+        "zh-CN": "公共空间",
+        "ja-JP": "公共空間",
+        "en-US": "Public Space"
+      },
+      "慢行交通": {
+        "zh-CN": "慢行交通",
+        "ja-JP": "アクティブモビリティ",
+        "en-US": "Active Mobility"
+      },
+      "街道界面": {
+        "zh-CN": "街道界面",
+        "ja-JP": "街路界面",
+        "en-US": "Street Interface"
+      },
+      "社区生活": {
+        "zh-CN": "社区生活",
+        "ja-JP": "コミュニティ生活",
+        "en-US": "Community Life"
+      },
+      "弹性与适应": {
+        "zh-CN": "弹性与适应",
+        "ja-JP": "柔軟性・適応性",
+        "en-US": "Flexibility & Adaptation"
+      },
+      "低碳气候": {
+        "zh-CN": "低碳气候",
+        "ja-JP": "低炭素・気候",
+        "en-US": "Low Carbon & Climate"
+      },
+      "自然生态": {
+        "zh-CN": "自然生态",
+        "ja-JP": "自然・生態",
+        "en-US": "Nature & Ecology"
+      },
+      "蓝绿水系": {
+        "zh-CN": "蓝绿水系",
+        "ja-JP": "ブルー・グリーン水系",
+        "en-US": "Blue-Green Systems"
+      },
+      "灾害韧性": {
+        "zh-CN": "灾害韧性",
+        "ja-JP": "災害レジリエンス",
+        "en-US": "Disaster Resilience"
+      },
+      "循环资源": {
+        "zh-CN": "循环资源",
+        "ja-JP": "循環資源",
+        "en-US": "Circular Resources"
+      },
+      "存量更新": {
+        "zh-CN": "存量更新",
+        "ja-JP": "既存ストック再生",
+        "en-US": "Existing-Stock Renewal"
+      },
+      "渐进实施": {
+        "zh-CN": "渐进实施",
+        "ja-JP": "段階的実施",
+        "en-US": "Incremental Delivery"
+      },
+      "产业创新": {
+        "zh-CN": "产业创新",
+        "ja-JP": "産業イノベーション",
+        "en-US": "Industry & Innovation"
+      },
+      "公众协作": {
+        "zh-CN": "公众协作",
+        "ja-JP": "市民協働",
+        "en-US": "Public Collaboration"
+      },
+      "包容设计": {
+        "zh-CN": "包容设计",
+        "ja-JP": "インクルーシブデザイン",
+        "en-US": "Inclusive Design"
+      },
+      "场所认知": {
+        "zh-CN": "场所认知",
+        "ja-JP": "場所認知",
+        "en-US": "Place Identity"
+      }
+    },
+    "projectTypes": {
+      "城市更新": {
+        "zh-CN": "城市更新",
+        "ja-JP": "都市再生",
+        "en-US": "Urban Renewal"
+      },
+      "城市设计": {
+        "zh-CN": "城市设计",
+        "ja-JP": "都市デザイン",
+        "en-US": "Urban Design"
+      },
+      "旧城改造": {
+        "zh-CN": "旧城改造",
+        "ja-JP": "旧市街改修",
+        "en-US": "Old-City Renewal"
+      },
+      "建筑设计": {
+        "zh-CN": "建筑设计",
+        "ja-JP": "建築設計",
+        "en-US": "Architectural Design"
+      },
+      "公共空间": {
+        "zh-CN": "公共空间",
+        "ja-JP": "公共空間",
+        "en-US": "Public Space"
+      },
+      "交通枢纽": {
+        "zh-CN": "交通枢纽",
+        "ja-JP": "交通結節点",
+        "en-US": "Transport Hub"
+      },
+      "站城一体": {
+        "zh-CN": "站城一体",
+        "ja-JP": "駅まち一体開発",
+        "en-US": "Station-City Integration"
+      },
+      "总体规划": {
+        "zh-CN": "总体规划",
+        "ja-JP": "総合計画",
+        "en-US": "Comprehensive Planning"
+      },
+      "景观规划": {
+        "zh-CN": "景观规划",
+        "ja-JP": "ランドスケープ計画",
+        "en-US": "Landscape Planning"
+      },
+      "片区更新": {
+        "zh-CN": "片区更新",
+        "ja-JP": "地区再生",
+        "en-US": "District Renewal"
+      },
+      "综合开发": {
+        "zh-CN": "综合开发",
+        "ja-JP": "複合開発",
+        "en-US": "Integrated Development"
+      },
+      "交通规划": {
+        "zh-CN": "交通规划",
+        "ja-JP": "交通計画",
+        "en-US": "Transport Planning"
+      },
+      "社区规划": {
+        "zh-CN": "社区规划",
+        "ja-JP": "コミュニティ計画",
+        "en-US": "Community Planning"
+      },
+      "公共服务": {
+        "zh-CN": "公共服务",
+        "ja-JP": "公共サービス",
+        "en-US": "Public Services"
+      },
+      "基础设施": {
+        "zh-CN": "基础设施",
+        "ja-JP": "インフラ",
+        "en-US": "Infrastructure"
+      },
+      "街道改造": {
+        "zh-CN": "街道改造",
+        "ja-JP": "街路改修",
+        "en-US": "Street Retrofit"
+      },
+      "社区营造": {
+        "zh-CN": "社区营造",
+        "ja-JP": "まちづくり",
+        "en-US": "Community Building"
+      },
+      "文旅策划": {
+        "zh-CN": "文旅策划",
+        "ja-JP": "文化観光企画",
+        "en-US": "Cultural Tourism Planning"
+      },
+      "道路设计": {
+        "zh-CN": "道路设计",
+        "ja-JP": "道路設計",
+        "en-US": "Road Design"
+      },
+      "慢行系统": {
+        "zh-CN": "慢行系统",
+        "ja-JP": "歩行・自転車ネットワーク",
+        "en-US": "Active-Mobility Network"
+      },
+      "工业遗产": {
+        "zh-CN": "工业遗产",
+        "ja-JP": "産業遺産",
+        "en-US": "Industrial Heritage"
+      },
+      "片区改造": {
+        "zh-CN": "片区改造",
+        "ja-JP": "地区改修",
+        "en-US": "District Retrofit"
+      },
+      "街道设计": {
+        "zh-CN": "街道设计",
+        "ja-JP": "街路設計",
+        "en-US": "Street Design"
+      },
+      "校园规划": {
+        "zh-CN": "校园规划",
+        "ja-JP": "キャンパス計画",
+        "en-US": "Campus Planning"
+      },
+      "生态修复": {
+        "zh-CN": "生态修复",
+        "ja-JP": "生態修復",
+        "en-US": "Ecological Restoration"
+      },
+      "商业街区": {
+        "zh-CN": "商业街区",
+        "ja-JP": "商業地区",
+        "en-US": "Commercial District"
+      },
+      "都市圈规划": {
+        "zh-CN": "都市圈规划",
+        "ja-JP": "都市圏計画",
+        "en-US": "Metropolitan Planning"
+      },
+      "街区设计": {
+        "zh-CN": "街区设计",
+        "ja-JP": "街区設計",
+        "en-US": "Block Design"
+      },
+      "旧城保护": {
+        "zh-CN": "旧城保护",
+        "ja-JP": "旧市街保全",
+        "en-US": "Historic Urban Conservation"
+      },
+      "街区更新": {
+        "zh-CN": "街区更新",
+        "ja-JP": "街区再生",
+        "en-US": "Block Renewal"
+      },
+      "步行系统": {
+        "zh-CN": "步行系统",
+        "ja-JP": "歩行者ネットワーク",
+        "en-US": "Pedestrian Network"
+      },
+      "居住区设计": {
+        "zh-CN": "居住区设计",
+        "ja-JP": "住宅地設計",
+        "en-US": "Residential District Design"
+      },
+      "住区设计": {
+        "zh-CN": "住区设计",
+        "ja-JP": "住宅街区設計",
+        "en-US": "Residential Neighborhood Design"
+      },
+      "TOD": {
+        "zh-CN": "TOD",
+        "ja-JP": "TOD",
+        "en-US": "TOD"
+      },
+      "分区规划": {
+        "zh-CN": "分区规划",
+        "ja-JP": "ゾーニング計画",
+        "en-US": "Zoning Planning"
+      },
+      "形态控制": {
+        "zh-CN": "形态控制",
+        "ja-JP": "形態コントロール",
+        "en-US": "Form Control"
+      },
+      "核心区设计": {
+        "zh-CN": "核心区设计",
+        "ja-JP": "都心部デザイン",
+        "en-US": "Core-Area Design"
+      },
+      "滨水设计": {
+        "zh-CN": "滨水设计",
+        "ja-JP": "ウォーターフロント設計",
+        "en-US": "Waterfront Design"
+      },
+      "历史保护": {
+        "zh-CN": "历史保护",
+        "ja-JP": "歴史保全",
+        "en-US": "Historic Conservation"
+      },
+      "历史街区": {
+        "zh-CN": "历史街区",
+        "ja-JP": "歴史地区",
+        "en-US": "Historic District"
+      },
+      "商业街": {
+        "zh-CN": "商业街",
+        "ja-JP": "商店街",
+        "en-US": "Commercial Street"
+      },
+      "居住区": {
+        "zh-CN": "居住区",
+        "ja-JP": "住宅地区",
+        "en-US": "Residential Area"
+      },
+      "儿童友好": {
+        "zh-CN": "儿童友好",
+        "ja-JP": "子どもにやさしい環境",
+        "en-US": "Child-Friendly Environment"
+      },
+      "街道更新": {
+        "zh-CN": "街道更新",
+        "ja-JP": "街路再生",
+        "en-US": "Street Renewal"
+      },
+      "战术改造": {
+        "zh-CN": "战术改造",
+        "ja-JP": "タクティカル改修",
+        "en-US": "Tactical Retrofit"
+      },
+      "导视": {
+        "zh-CN": "导视",
+        "ja-JP": "サイン・ウェイファインディング",
+        "en-US": "Wayfinding"
+      },
+      "住宅": {
+        "zh-CN": "住宅",
+        "ja-JP": "住宅",
+        "en-US": "Housing"
+      },
+      "公共建筑": {
+        "zh-CN": "公共建筑",
+        "ja-JP": "公共建築",
+        "en-US": "Public Building"
+      },
+      "更新改造": {
+        "zh-CN": "更新改造",
+        "ja-JP": "改修・再生",
+        "en-US": "Renovation & Renewal"
+      },
+      "模块化建筑": {
+        "zh-CN": "模块化建筑",
+        "ja-JP": "モジュール建築",
+        "en-US": "Modular Building"
+      },
+      "办公": {
+        "zh-CN": "办公",
+        "ja-JP": "オフィス",
+        "en-US": "Office"
+      },
+      "教育建筑": {
+        "zh-CN": "教育建筑",
+        "ja-JP": "教育施設",
+        "en-US": "Educational Building"
+      },
+      "低碳建筑": {
+        "zh-CN": "低碳建筑",
+        "ja-JP": "低炭素建築",
+        "en-US": "Low-Carbon Building"
+      },
+      "室内设计": {
+        "zh-CN": "室内设计",
+        "ja-JP": "インテリアデザイン",
+        "en-US": "Interior Design"
+      },
+      "低碳设计": {
+        "zh-CN": "低碳设计",
+        "ja-JP": "低炭素デザイン",
+        "en-US": "Low-Carbon Design"
+      },
+      "住区": {
+        "zh-CN": "住区",
+        "ja-JP": "住宅地",
+        "en-US": "Residential Neighborhood"
+      },
+      "校园": {
+        "zh-CN": "校园",
+        "ja-JP": "キャンパス",
+        "en-US": "Campus"
+      },
+      "综合体": {
+        "zh-CN": "综合体",
+        "ja-JP": "複合施設",
+        "en-US": "Mixed-Use Complex"
+      },
+      "高层建筑": {
+        "zh-CN": "高层建筑",
+        "ja-JP": "高層建築",
+        "en-US": "High-Rise Building"
+      },
+      "生态规划": {
+        "zh-CN": "生态规划",
+        "ja-JP": "生態計画",
+        "en-US": "Ecological Planning"
+      },
+      "水环境": {
+        "zh-CN": "水环境",
+        "ja-JP": "水環境",
+        "en-US": "Water Environment"
+      },
+      "区域规划": {
+        "zh-CN": "区域规划",
+        "ja-JP": "地域計画",
+        "en-US": "Regional Planning"
+      },
+      "景观设计": {
+        "zh-CN": "景观设计",
+        "ja-JP": "ランドスケープ設計",
+        "en-US": "Landscape Design"
+      },
+      "气候适应": {
+        "zh-CN": "气候适应",
+        "ja-JP": "気候適応",
+        "en-US": "Climate Adaptation"
+      },
+      "公园设计": {
+        "zh-CN": "公园设计",
+        "ja-JP": "公園設計",
+        "en-US": "Park Design"
+      },
+      "防洪韧性": {
+        "zh-CN": "防洪韧性",
+        "ja-JP": "洪水レジリエンス",
+        "en-US": "Flood Resilience"
+      },
+      "棕地更新": {
+        "zh-CN": "棕地更新",
+        "ja-JP": "ブラウンフィールド再生",
+        "en-US": "Brownfield Renewal"
+      },
+      "低碳规划": {
+        "zh-CN": "低碳规划",
+        "ja-JP": "低炭素計画",
+        "en-US": "Low-Carbon Planning"
+      },
+      "产业园区": {
+        "zh-CN": "产业园区",
+        "ja-JP": "産業地区",
+        "en-US": "Industrial / Innovation Park"
+      },
+      "产业转型": {
+        "zh-CN": "产业转型",
+        "ja-JP": "産業転換",
+        "en-US": "Industrial Transition"
+      },
+      "土地修复": {
+        "zh-CN": "土地修复",
+        "ja-JP": "土地修復",
+        "en-US": "Land Remediation"
+      },
+      "旧厂改造": {
+        "zh-CN": "旧厂改造",
+        "ja-JP": "旧工場再生",
+        "en-US": "Factory Reuse"
+      },
+      "文化更新": {
+        "zh-CN": "文化更新",
+        "ja-JP": "文化再生",
+        "en-US": "Cultural Renewal"
+      },
+      "产业更新": {
+        "zh-CN": "产业更新",
+        "ja-JP": "産業再生",
+        "en-US": "Industrial Renewal"
+      },
+      "闲置空间": {
+        "zh-CN": "闲置空间",
+        "ja-JP": "遊休空間",
+        "en-US": "Vacant Space"
+      },
+      "分期开发": {
+        "zh-CN": "分期开发",
+        "ja-JP": "段階開発",
+        "en-US": "Phased Development"
+      },
+      "大学城": {
+        "zh-CN": "大学城",
+        "ja-JP": "大学地区",
+        "en-US": "University District"
+      },
+      "产业规划": {
+        "zh-CN": "产业规划",
+        "ja-JP": "産業計画",
+        "en-US": "Industrial Planning"
+      },
+      "混合城区": {
+        "zh-CN": "混合城区",
+        "ja-JP": "複合市街地",
+        "en-US": "Mixed Urban District"
+      },
+      "社区建设": {
+        "zh-CN": "社区建设",
+        "ja-JP": "コミュニティ形成",
+        "en-US": "Community Development"
+      },
+      "服务设计": {
+        "zh-CN": "服务设计",
+        "ja-JP": "サービスデザイン",
+        "en-US": "Service Design"
+      },
+      "学校周边": {
+        "zh-CN": "学校周边",
+        "ja-JP": "学校周辺",
+        "en-US": "School Surroundings"
+      },
+      "历史街区更新": {
+        "zh-CN": "历史街区更新",
+        "ja-JP": "歴史地区再生",
+        "en-US": "Historic-District Renewal"
+      },
+      "历史环境": {
+        "zh-CN": "历史环境",
+        "ja-JP": "歴史的環境",
+        "en-US": "Historic Environment"
+      },
+      "公园体系": {
+        "zh-CN": "公园体系",
+        "ja-JP": "公園システム",
+        "en-US": "Park System"
+      },
+      "新区规划": {
+        "zh-CN": "新区规划",
+        "ja-JP": "新市街地計画",
+        "en-US": "New-District Planning"
+      },
+      "工业用地更新": {
+        "zh-CN": "工业用地更新",
+        "ja-JP": "工業用地再生",
+        "en-US": "Industrial-Land Renewal"
+      },
+      "城市研究": {
+        "zh-CN": "城市研究",
+        "ja-JP": "都市研究",
+        "en-US": "Urban Research"
+      },
+      "交通与土地使用分析": {
+        "zh-CN": "交通与土地使用分析",
+        "ja-JP": "交通・土地利用分析",
+        "en-US": "Transport & Land-Use Analysis"
+      },
+      "文化创意": {
+        "zh-CN": "文化创意",
+        "ja-JP": "文化・クリエイティブ",
+        "en-US": "Culture & Creative Industries"
+      },
+      "数字城市": {
+        "zh-CN": "数字城市",
+        "ja-JP": "デジタル都市",
+        "en-US": "Digital City"
+      },
+      "公众参与": {
+        "zh-CN": "公众参与",
+        "ja-JP": "市民参加",
+        "en-US": "Public Participation"
+      },
+      "生活圈规划": {
+        "zh-CN": "生活圈规划",
+        "ja-JP": "生活圏計画",
+        "en-US": "Neighborhood Accessibility Planning"
+      },
+      "公共服务设施": {
+        "zh-CN": "公共服务设施",
+        "ja-JP": "公共サービス施設",
+        "en-US": "Public-Service Facilities"
+      },
+      "可达性分析": {
+        "zh-CN": "可达性分析",
+        "ja-JP": "アクセシビリティ分析",
+        "en-US": "Accessibility Analysis"
+      },
+      "历史更新": {
+        "zh-CN": "历史更新",
+        "ja-JP": "歴史環境再生",
+        "en-US": "Historic Renewal"
+      },
+      "文旅空间": {
+        "zh-CN": "文旅空间",
+        "ja-JP": "文化観光空間",
+        "en-US": "Cultural Tourism Space"
+      },
+      "非正规空间": {
+        "zh-CN": "非正规空间",
+        "ja-JP": "インフォーマル空間",
+        "en-US": "Informal Space"
+      },
+      "创新城区": {
+        "zh-CN": "创新城区",
+        "ja-JP": "イノベーション地区",
+        "en-US": "Innovation District"
+      },
+      "数字治理": {
+        "zh-CN": "数字治理",
+        "ja-JP": "デジタルガバナンス",
+        "en-US": "Digital Governance"
+      },
+      "城市管理": {
+        "zh-CN": "城市管理",
+        "ja-JP": "都市管理",
+        "en-US": "Urban Management"
+      },
+      "医疗建筑": {
+        "zh-CN": "医疗建筑",
+        "ja-JP": "医療建築",
+        "en-US": "Healthcare Building"
+      },
+      "养老设施": {
+        "zh-CN": "养老设施",
+        "ja-JP": "高齢者施設",
+        "en-US": "Senior-Care Facility"
+      },
+      "社区公共空间": {
+        "zh-CN": "社区公共空间",
+        "ja-JP": "地域公共空間",
+        "en-US": "Community Public Space"
+      },
+      "康复景观": {
+        "zh-CN": "康复景观",
+        "ja-JP": "療養ランドスケープ",
+        "en-US": "Therapeutic Landscape"
+      },
+      "低碳社区": {
+        "zh-CN": "低碳社区",
+        "ja-JP": "低炭素コミュニティ",
+        "en-US": "Low-Carbon Community"
+      },
+      "文化空间": {
+        "zh-CN": "文化空间",
+        "ja-JP": "文化空間",
+        "en-US": "Cultural Space"
+      },
+      "街道网络": {
+        "zh-CN": "街道网络",
+        "ja-JP": "街路ネットワーク",
+        "en-US": "Street Network"
+      },
+      "交通与步行分析": {
+        "zh-CN": "交通与步行分析",
+        "ja-JP": "交通・歩行分析",
+        "en-US": "Transport & Pedestrian Analysis"
+      },
+      "都市圈": {
+        "zh-CN": "都市圈",
+        "ja-JP": "都市圏",
+        "en-US": "Metropolitan Area"
+      },
+      "商业中心": {
+        "zh-CN": "商业中心",
+        "ja-JP": "商業中心",
+        "en-US": "Commercial Center"
+      },
+      "住房设计": {
+        "zh-CN": "住房设计",
+        "ja-JP": "住宅設計",
+        "en-US": "Housing Design"
+      },
+      "社区资产": {
+        "zh-CN": "社区资产",
+        "ja-JP": "コミュニティ資産",
+        "en-US": "Community Assets"
+      },
+      "住房": {
+        "zh-CN": "住房",
+        "ja-JP": "住居",
+        "en-US": "Housing"
+      },
+      "乡村规划": {
+        "zh-CN": "乡村规划",
+        "ja-JP": "農村・地域計画",
+        "en-US": "Rural Planning"
+      },
+      "小城镇": {
+        "zh-CN": "小城镇",
+        "ja-JP": "小都市・町",
+        "en-US": "Small Town"
+      },
+      "地方产业": {
+        "zh-CN": "地方产业",
+        "ja-JP": "地域産業",
+        "en-US": "Local Industry"
+      },
+      "城市农业": {
+        "zh-CN": "城市农业",
+        "ja-JP": "都市農業",
+        "en-US": "Urban Agriculture"
+      },
+      "食物系统": {
+        "zh-CN": "食物系统",
+        "ja-JP": "フードシステム",
+        "en-US": "Food System"
+      },
+      "生活圈": {
+        "zh-CN": "生活圈",
+        "ja-JP": "生活圏",
+        "en-US": "Neighborhood"
+      },
+      "大型公园": {
+        "zh-CN": "大型公园",
+        "ja-JP": "大規模公園",
+        "en-US": "Large Park"
+      },
+      "循环园区": {
+        "zh-CN": "循环园区",
+        "ja-JP": "循環型地区",
+        "en-US": "Circular District"
+      },
+      "材料策略": {
+        "zh-CN": "材料策略",
+        "ja-JP": "材料戦略",
+        "en-US": "Material Strategy"
+      },
+      "规划评估": {
+        "zh-CN": "规划评估",
+        "ja-JP": "計画評価",
+        "en-US": "Planning Evaluation"
+      },
+      "历史城镇": {
+        "zh-CN": "历史城镇",
+        "ja-JP": "歴史的都市・町",
+        "en-US": "Historic Town"
+      },
+      "地方发展": {
+        "zh-CN": "地方发展",
+        "ja-JP": "地域振興",
+        "en-US": "Local Development"
+      },
+      "综合片区": {
+        "zh-CN": "综合片区",
+        "ja-JP": "複合地区",
+        "en-US": "Integrated District"
+      },
+      "生态城区": {
+        "zh-CN": "生态城区",
+        "ja-JP": "エコ地区",
+        "en-US": "Eco-District"
+      },
+      "临时空间": {
+        "zh-CN": "临时空间",
+        "ja-JP": "暫定空間",
+        "en-US": "Temporary Space"
+      },
+      "模块化更新": {
+        "zh-CN": "模块化更新",
+        "ja-JP": "モジュール型更新",
+        "en-US": "Modular Renewal"
+      },
+      "养老社区": {
+        "zh-CN": "养老社区",
+        "ja-JP": "高齢者コミュニティ",
+        "en-US": "Senior Community"
+      },
+      "社区服务": {
+        "zh-CN": "社区服务",
+        "ja-JP": "地域サービス",
+        "en-US": "Community Services"
+      },
+      "健康设施": {
+        "zh-CN": "健康设施",
+        "ja-JP": "健康支援施設",
+        "en-US": "Health Facilities"
+      },
+      "城中村": {
+        "zh-CN": "城中村",
+        "ja-JP": "都市内集落",
+        "en-US": "Urban Village"
+      },
+      "非正规住区": {
+        "zh-CN": "非正规住区",
+        "ja-JP": "インフォーマル居住地",
+        "en-US": "Informal Settlement"
+      },
+      "交通改善": {
+        "zh-CN": "交通改善",
+        "ja-JP": "交通改善",
+        "en-US": "Transport Improvement"
+      },
+      "交通空间": {
+        "zh-CN": "交通空间",
+        "ja-JP": "交通空間",
+        "en-US": "Mobility Space"
+      },
+      "住宅设计": {
+        "zh-CN": "住宅设计",
+        "ja-JP": "住宅設計",
+        "en-US": "Housing Design"
+      },
+      "商业更新": {
+        "zh-CN": "商业更新",
+        "ja-JP": "商業再生",
+        "en-US": "Commercial Renewal"
+      },
+      "基础设施缝合": {
+        "zh-CN": "基础设施缝合",
+        "ja-JP": "インフラによる都市縫合",
+        "en-US": "Infrastructure Stitching"
+      },
+      "滨水更新": {
+        "zh-CN": "滨水更新",
+        "ja-JP": "ウォーターフロント再生",
+        "en-US": "Waterfront Renewal"
+      },
+      "社区更新": {
+        "zh-CN": "社区更新",
+        "ja-JP": "コミュニティ再生",
+        "en-US": "Community Renewal"
+      },
+      "街道界面": {
+        "zh-CN": "街道界面",
+        "ja-JP": "街路界面",
+        "en-US": "Street Interface"
+      }
+    }
+  }
 }

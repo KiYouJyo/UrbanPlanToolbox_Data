@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "id": "design-concepts",
-  "version": "2026.08.2",
+  "version": "2026.08.3",
   "schemaVersion": 1,
   "displayName": {
     "zh-CN": "设计理念词典",
@@ -13,7 +13,7 @@
     "ja-JP": "UrbanPlanToolbox が保守する都市計画・建築デザイン概念の解説、タグ、適用場面、事例ヒント。",
     "en-US": "UrbanPlanToolbox-curated planning and architectural design concepts with definitions, tags, use cases and case notes."
   },
-  "minAppVersion": "1.9.2",
+  "minAppVersion": "1.9.3",
   "dataPath": "data/concepts.json",
   "schemaPath": "schemas/design-concepts.schema.json",
   "publisher": "UrbanPlanToolbox",

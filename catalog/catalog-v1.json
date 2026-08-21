@@ -1,20 +1,20 @@
 {
   "catalogVersion": 1,
-  "releaseTag": "data-2026.08.2",
+  "releaseTag": "data-2026.08.3",
   "packs": [
     {
       "id": "design-concepts",
-      "version": "2026.08.2",
+      "version": "2026.08.3",
       "schemaVersion": 1,
-      "minAppVersion": "1.9.2",
+      "minAppVersion": "1.9.3",
       "displayName": {
         "zh-CN": "设计理念词典",
         "ja-JP": "デザインコンセプト辞典",
         "en-US": "Design Concepts Dictionary"
       },
-      "size": 25420,
-      "sha256": "a9efc9814e0d11adc1e54bd5fadd73f025738fe0d0bed622706875f5589a82e1",
-      "downloadUrl": "https://github.com/KiYouJyo/UrbanPlanToolbox_Data/releases/download/data-2026.08.2/design-concepts-2026.08.2.uptdata"
+      "size": 59825,
+      "sha256": "484ecc7382ae6137703dd9c2a0bbb1f8b7907eae98cb842ca85e1e10ae33c98d",
+      "downloadUrl": "https://github.com/KiYouJyo/UrbanPlanToolbox_Data/releases/download/data-2026.08.3/design-concepts-2026.08.3.uptdata"
     },
     {
       "id": "planning-regulations",
@@ -27,8 +27,8 @@
         "en-US": "Architecture & Planning Regulations Index"
       },
       "size": 19496,
-      "sha256": "d954ccf27b9bb84d032b6d0a3d9b58d5d887b3851298fbca3bbbb1a57fb2eb01",
-      "downloadUrl": "https://github.com/KiYouJyo/UrbanPlanToolbox_Data/releases/download/data-2026.08.2/planning-regulations-2026.08.1.uptdata"
+      "sha256": "600b1e40f8dd746057f17dc226fe7c963b708ccea2c9e5fb101964e810edaf51",
+      "downloadUrl": "https://github.com/KiYouJyo/UrbanPlanToolbox_Data/releases/download/data-2026.08.3/planning-regulations-2026.08.1.uptdata"
     },
     {
       "id": "planning-terminology",
@@ -41,8 +41,8 @@
         "en-US": "Chinese-Japanese-English Planning Terminology"
       },
       "size": 51279,
-      "sha256": "f7585b562d418d1c03285d4a389cd521c6e99a38c34c609ac7d3f3ee5b865124",
-      "downloadUrl": "https://github.com/KiYouJyo/UrbanPlanToolbox_Data/releases/download/data-2026.08.2/planning-terminology-2026.08.1.uptdata"
+      "sha256": "0cd256effbd911bffed83e701a76cc2abc5509fc3abb458d09aecb773b65bb7f",
+      "downloadUrl": "https://github.com/KiYouJyo/UrbanPlanToolbox_Data/releases/download/data-2026.08.3/planning-terminology-2026.08.1.uptdata"
     }
   ]
 }

@@ -17,8 +17,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Assemble design concepts 2026.08.2
-        run: python scripts/merge_design_concepts_2026_08_2.py
+      - name: Assemble design concepts 2026.08.3
+        run: python scripts/apply_design_concepts_2026_08_3.py
       - name: Validate data
         run: python scripts/validate.py
       - name: Build data packs
@@ -30,7 +30,15 @@ jobs:
       - name: Inspect packages and Excel snapshots
         run: |
           python - <<'PY'
-          import pathlib, zipfile
+          import json, pathlib, zipfile
+
+          design = json.loads(pathlib.Path('packs/design-concepts/data/concepts.json').read_text(encoding='utf-8'))
+          assert design['dataVersion'] == '2026.08.3'
+          assert len(design['entries']) == 109
+          for entry in design['entries']:
+              for field in ('title', 'definition', 'caseNote'):
+                  assert all(entry[field].get(lang) for lang in ('zh-CN', 'ja-JP', 'en-US')), (entry['stableId'], field)
+          print('design-concepts localization coverage: 109/109')
 
           for p in pathlib.Path('dist').glob('*.uptdata'):
               with zipfile.ZipFile(p) as z:

@@ -6,6 +6,7 @@ on:
     paths:
       - 'packs/**'
       - 'scripts/generate_excel.py'
+      - 'scripts/merge_design_concepts_2026_08_2.py'
       - '.github/workflows/sync-excel.yml'
   workflow_dispatch:
 
@@ -22,6 +23,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Assemble design concepts 2026.08.2
+        run: python scripts/merge_design_concepts_2026_08_2.py --finalize
       - name: Validate canonical data
         run: python scripts/validate.py
       - name: Generate versioned Excel snapshots
@@ -41,14 +44,14 @@ jobs:
                   assert any(n.startswith('xl/worksheets/sheet') for n in names), f'{p}: no worksheets'
                   print(p, p.stat().st_size)
           PY
-      - name: Commit synchronized Excel snapshots
+      - name: Commit synchronized canonical data and Excel snapshots
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add excel/
+          git add -A packs/design-concepts/data/concepts.json packs/design-concepts/manifest.source.json packs/design-concepts/data/staging-2026.08.2 excel/
           if git diff --cached --quiet; then
-            echo "Excel snapshots already synchronized."
+            echo "Canonical data and Excel snapshots already synchronized."
           else
-            git commit -m "data: sync Excel database snapshots"
+            git commit -m "data: sync design concepts 2026.08.2 and Excel snapshots"
             git push origin HEAD:main
           fi

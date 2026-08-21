@@ -1,0 +1,113 @@
+[
+  {
+    "id": 29,
+    "stableId": "concept-road-diet",
+    "title": {"zh-CN": "道路瘦身", "ja-JP": "ロードダイエット", "en-US": "Road Diet"},
+    "aliases": [],
+    "category": "街道与公共空间",
+    "projectTypes": ["街道改造", "交通改善", "城市更新"],
+    "tags": ["慢行交通", "街道界面", "公共空间"],
+    "definition": {"zh-CN": "通过减少或重新分配机动车车道，把道路空间转化为步行、自行车、公交、绿化或停车等用途，以改善安全与街道品质。", "ja-JP": "自動車車線を削減・再配分し、歩道、自転車、公共交通、緑化、駐車などへ空間を転換して安全性と街路品質を高める手法。", "en-US": "A street redesign that removes or reallocates motor-vehicle lanes to walking, cycling, transit, landscaping or parking to improve safety and place quality."},
+    "caseNote": {"zh-CN": "适合过宽道路和交通量允许的更新路段；需以交通数据和安全评估为前提。"},
+    "sourceIds": ["UPT-EDITORIAL"], "reviewStatus": "reviewed", "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 30,
+    "stableId": "concept-shared-space",
+    "title": {"zh-CN": "共享空间街道", "ja-JP": "シェアード・スペース", "en-US": "Shared Space"},
+    "aliases": [], "category": "街道与公共空间",
+    "projectTypes": ["街道设计", "历史街区", "商业街"],
+    "tags": ["慢行交通", "公共空间", "街道界面"],
+    "definition": {"zh-CN": "弱化路缘、标线和硬性分隔，在低速环境中让行人、自行车与机动车通过视觉协商共享同一街道空间。", "ja-JP": "縁石、標示、物理的分離を抑え、低速環境の中で歩行者・自転車・自動車が相互に注意しながら同じ街路空間を共有する。", "en-US": "A low-speed street concept that reduces formal separation and allows pedestrians, cyclists and vehicles to negotiate movement within a shared surface."},
+    "caseNote": {"zh-CN": "适合低速商业街、历史街区和社区道路；无障碍与视障者安全必须专项设计。"},
+    "sourceIds": ["UPT-EDITORIAL"], "reviewStatus": "reviewed", "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 31,
+    "stableId": "concept-woonerf",
+    "title": {"zh-CN": "生活道路（Woonerf）", "ja-JP": "ボンエルフ", "en-US": "Woonerf"},
+    "aliases": [], "category": "街道与公共空间",
+    "projectTypes": ["居住区", "社区更新", "儿童友好"],
+    "tags": ["慢行交通", "社区生活", "包容设计"],
+    "definition": {"zh-CN": "以居住和停留活动优先的生活街道，通过铺装、曲折线形、绿化和设施降低车速，使机动车成为受限的客体。", "ja-JP": "居住・滞在活動を優先し、舗装、屈曲、植栽、ストリートファニチャーなどで速度を抑え、自動車を従属的に扱う生活道路。", "en-US": "A residential living street where social use and pedestrians take priority, with physical design measures that strongly constrain vehicle speed and behavior."},
+    "caseNote": {"zh-CN": "适合社区内部、学校周边和低速居住街；需配套清晰的交通组织和消防通行方案。"},
+    "sourceIds": ["UPT-EDITORIAL"], "reviewStatus": "reviewed", "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 32,
+    "stableId": "concept-parklet",
+    "title": {"zh-CN": "微型街旁空间（Parklet）", "ja-JP": "パークレット", "en-US": "Parklet"},
+    "aliases": [], "category": "街道与公共空间",
+    "projectTypes": ["街道更新", "商业街", "战术改造"],
+    "tags": ["公共空间", "渐进实施", "社区生活"],
+    "definition": {"zh-CN": "将一个或数个路侧停车位等道路余量转化为可坐、可停留、可绿化的小型公共空间，以低成本补充街道公共活动。", "ja-JP": "路上駐車区画などの道路余地を、座る・滞在する・緑化するための小規模な公共空間へ転換する手法。", "en-US": "A small public-space intervention that converts curbside parking or residual street space into seating, planting and places to stay."},
+    "caseNote": {"zh-CN": "适合商业街、校园和社区中心；可作为战术都市主义的低成本试点工具。"},
+    "sourceIds": ["UPT-EDITORIAL"], "reviewStatus": "reviewed", "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 33,
+    "stableId": "concept-human-scale",
+    "title": {"zh-CN": "人本尺度", "ja-JP": "ヒューマンスケール", "en-US": "Human Scale"},
+    "aliases": [], "category": "街道与公共空间",
+    "projectTypes": ["建筑设计", "城市设计", "公共空间"],
+    "tags": ["街道界面", "公共空间", "场所认知"],
+    "definition": {"zh-CN": "以人的视高、步行速度、感知距离和身体尺度组织建筑与街道细部，使空间在近距离具有可理解、可停留和可互动的尺度。", "ja-JP": "人の視線高さ、歩行速度、知覚距離、身体寸法を基準に建築・街路の細部を構成し、近距離で理解・滞在・交流しやすい尺度をつくる。", "en-US": "Designing buildings and public space around human perception, walking speed and body dimensions so environments feel legible, comfortable and engaging at close range."},
+    "caseNote": {"zh-CN": "适合首层界面、街道和公共空间审查；不能仅用建筑高度单一判断。"},
+    "sourceIds": ["UPT-EDITORIAL"], "reviewStatus": "reviewed", "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 34,
+    "stableId": "concept-pedestrian-priority-network",
+    "title": {"zh-CN": "步行优先网络", "ja-JP": "歩行者優先ネットワーク", "en-US": "Pedestrian Priority Network"},
+    "aliases": [], "category": "街道与公共空间",
+    "projectTypes": ["城市设计", "交通规划", "社区规划"],
+    "tags": ["慢行交通", "连通网络", "公共空间"],
+    "definition": {"zh-CN": "把连续、安全、舒适的步行路径作为空间组织骨架，优先连接公共交通、公共服务、开放空间和高频目的地。", "ja-JP": "連続性・安全性・快適性の高い歩行経路を都市空間の骨格とし、公共交通、公共施設、オープンスペース、主要目的地を優先的に結ぶ。", "en-US": "A connected network that treats walking routes as a primary spatial framework linking transit, services, open space and frequent destinations."},
+    "caseNote": {"zh-CN": "适合片区级更新和站城一体项目；需用过街、遮阴、坡度与无障碍连续性校核。"},
+    "sourceIds": ["UPT-EDITORIAL"], "reviewStatus": "reviewed", "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 35,
+    "stableId": "concept-active-mobility-hub",
+    "title": {"zh-CN": "主动交通枢纽", "ja-JP": "アクティブモビリティ・ハブ", "en-US": "Active Mobility Hub"},
+    "aliases": [], "category": "街道与公共空间",
+    "projectTypes": ["交通枢纽", "TOD", "城市设计"],
+    "tags": ["慢行交通", "连通网络", "公共空间"],
+    "definition": {"zh-CN": "在轨道、公交或社区中心集中配置自行车停车、共享出行、维修、淋浴和步行导向等设施，强化慢行与公共交通衔接。", "ja-JP": "鉄道・バス拠点や地域中心に自転車駐車、シェアモビリティ、修理、シャワー、歩行案内などを集約し、能動交通と公共交通の接続を強化する。", "en-US": "A hub that integrates bicycle parking, shared mobility, repair and pedestrian services with transit to support seamless active-mobility connections."},
+    "caseNote": {"zh-CN": "适合TOD和大型园区；核心是换乘便利而非单纯增加自行车停车数量。"},
+    "sourceIds": ["UPT-EDITORIAL"], "reviewStatus": "reviewed", "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 36,
+    "stableId": "concept-threshold-space",
+    "title": {"zh-CN": "阈限空间", "ja-JP": "閾（しきい）空間", "en-US": "Threshold Space"},
+    "aliases": [], "category": "街道与公共空间",
+    "projectTypes": ["建筑设计", "公共空间", "街道界面"],
+    "tags": ["街道界面", "公共空间", "场所认知"],
+    "definition": {"zh-CN": "位于不同空间属性交界处、承担进入、停留、观察和身份转换的边界空间，如门廊、台阶、前庭、骑楼口和半开放入口带。", "ja-JP": "異なる空間属性の境界に位置し、進入、滞在、観察、行動の切替えを受け止める空間。ポーチ、段差、前庭、半屋外入口などが含まれる。", "en-US": "A boundary zone between distinct spatial conditions that supports entry, pause, observation and transition, such as porches, forecourts and semi-open entrances."},
+    "caseNote": {"zh-CN": "适合建筑首层与街道衔接；与“灰空间”相关，但更强调边界行为和进入过程。"},
+    "sourceIds": ["UPT-EDITORIAL"], "reviewStatus": "reviewed", "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 37,
+    "stableId": "concept-third-place",
+    "title": {"zh-CN": "第三场所", "ja-JP": "サードプレイス", "en-US": "Third Place"},
+    "aliases": [], "category": "街道与公共空间",
+    "projectTypes": ["社区规划", "公共空间", "商业更新"],
+    "tags": ["社区生活", "公共空间", "场所认知"],
+    "definition": {"zh-CN": "区别于家庭和工作场所的日常社交空间，强调低门槛、可重复到访、非正式交流与社区关系形成。", "ja-JP": "家庭と職場以外の日常的な交流場所で、入りやすさ、反復利用、非公式な会話、地域コミュニティ形成を重視する。", "en-US": "An everyday social setting outside home and work that supports accessible, repeated and informal interaction and helps build community ties."},
+    "caseNote": {"zh-CN": "适合社区中心、咖啡店、图书馆和公共空间策划；重点在运营和使用，而不仅是物理形态。"},
+    "sourceIds": ["UPT-EDITORIAL"], "reviewStatus": "reviewed", "lastReviewed": "2026-08-21"
+  },
+  {
+    "id": 38,
+    "stableId": "concept-imageability",
+    "title": {"zh-CN": "城市可意象性", "ja-JP": "イメージアビリティ", "en-US": "Imageability"},
+    "aliases": [], "category": "街道与公共空间",
+    "projectTypes": ["城市设计", "导视", "历史街区"],
+    "tags": ["场所认知", "空间结构", "公共空间"],
+    "definition": {"zh-CN": "通过路径、边界、区域、节点和地标等可识别要素，使人能够形成清晰的城市认知地图并建立方向感和场所记忆。", "ja-JP": "パス、エッジ、地区、ノード、ランドマークなど識別しやすい要素によって、都市の認知地図、方向感覚、場所の記憶を形成しやすくする。", "en-US": "The quality of an environment that enables people to form a clear mental image through recognizable paths, edges, districts, nodes and landmarks."},
+    "caseNote": {"zh-CN": "适合复杂街区、枢纽和历史城区；可与导视设计和空间序列评价结合。"},
+    "sourceIds": ["UPT-EDITORIAL"], "reviewStatus": "reviewed", "lastReviewed": "2026-08-21"
+  }
+]

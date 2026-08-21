@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "packs" / "design-concepts" / "data" / "concepts.json"
 MANIFEST_PATH = ROOT / "packs" / "design-concepts" / "manifest.source.json"
 LABELS_PATH = ROOT / "scripts" / "design_concepts_2026_08_3_labels.json"
+EXTRA_LABELS_PATH = ROOT / "scripts" / "design_concepts_2026_08_3_labels_extra.json"
 CASE_NOTES_PATH = ROOT / "scripts" / "design_concepts_2026_08_3_existing_case_notes.json"
 ADDITIONS_PATH = ROOT / "scripts" / "design_concepts_2026_08_3_additions.json"
 
@@ -48,6 +49,9 @@ def require_localized(value: dict, label: str) -> None:
 def main() -> None:
     data = load_json(DATA_PATH)
     labels = load_json(LABELS_PATH)
+    extra_labels = load_json(EXTRA_LABELS_PATH)
+    for group_name, values in extra_labels.items():
+        labels.setdefault(group_name, {}).update(values)
     existing_case_notes = load_json(CASE_NOTES_PATH)
     additions = load_json(ADDITIONS_PATH)
 
